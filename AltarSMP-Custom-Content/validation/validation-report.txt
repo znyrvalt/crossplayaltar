@@ -2,7 +2,6 @@ PASS structure all 13 required deliverable files present
 PASS mappings 24 java items, 72 defs, 72 unique bedrock identifiers
 PASS pack 68 attachables, 56 geometries, 60 RCs, 68 atlas tiles, 11 sound events — refs resolve
 PASS zip 626 files mirror pack_source; manifest at root
-PASS coverage 72 required variants covered; 2 charge predicate defs
 PASS gde 15 display mappings, 15 resolve
 
 ERRORS: 0
