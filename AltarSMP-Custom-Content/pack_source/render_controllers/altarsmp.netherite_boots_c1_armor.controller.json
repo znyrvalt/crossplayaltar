@@ -1,0 +1,21 @@
+{
+ "format_version": "1.10.0",
+ "render_controllers": {
+  "controller.render.armor.altarsmp.netherite_boots_c1": {
+   "part_visibility": [
+    {
+     "*": "variable.boots_layer_visible > 0.0"
+    }
+   ],
+   "geometry": "Geometry.default",
+   "materials": [
+    {
+     "*": "Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.default"
+   ]
+  }
+ }
+}

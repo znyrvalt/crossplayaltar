@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_clay_ball_c4.hold_third_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -1.75,
+      27.5,
+      1.0
+     ],
+     "rotation": [
+      90.0,
+      14.25,
+      -0.29
+     ],
+     "scale": [
+      0.49414,
+      0.46289,
+      0.55078
+     ]
+    }
+   }
+  }
+ }
+}

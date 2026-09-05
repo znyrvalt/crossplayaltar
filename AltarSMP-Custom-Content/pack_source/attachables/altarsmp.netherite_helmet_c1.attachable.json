@@ -1,0 +1,28 @@
+{
+ "format_version": "1.21.30",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "altarsmp:netherite_helmet_c1",
+   "materials": {
+    "default": "armor",
+    "enchanted": "armor_glint"
+   },
+   "textures": {
+    "default": "textures/models/armor/copper_layer_1"
+   },
+   "geometry": {
+    "default": "geometry.player.armor.helmet"
+   },
+   "render_controllers": [
+    "controller.render.armor.altarsmp.netherite_helmet_c1"
+   ],
+   "scripts": {
+    "parent": "setup_armor",
+    "pre_animation": [
+     "variable.helmet_layer_visible = 1.0;",
+     "variable.helmet_layer_visible = query.any_armor_equipped('minecraft:head_slot') ? 0.0 : 1.0;"
+    ]
+   }
+  }
+ }
+}

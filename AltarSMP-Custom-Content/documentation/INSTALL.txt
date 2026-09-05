@@ -1,0 +1,115 @@
+ALTARSMMP FABRIC 2.0.5 - BEDROCK CROSSPLAY INSTALL
+===================================================
+Everything needed is inside this AltarSMP-Custom-Content/ directory. No build
+step is required: packs/pack.zip is the complete, prebuilt Bedrock resource
+pack (622 files). Geyser + Floodgate must already be running on the server.
+
+1. SERVER - Geyser custom content
+---------------------------------
+1.1  Stop the server.
+1.2  In config/geyser/config.yml make sure:
+
+       gameplay:
+         allow-custom-skulls: true
+         enable-custom-content: true
+
+     (Floodgate: no Java accounts needed; verify floodegate/config.yml
+      "xbox-auth-only: true" and that bedrock players connect normally.)
+
+1.3  Copy the following into the server's Geyser folder (same dir as
+     geyser.jar / config/):
+
+       Geyser/custom_mappings/geyser_item_mappings.json
+       Geyser/custom_mappings/geyser_block_mappings.json
+       Geyser/custom_mappings/geyser_skull_mappings.json
+       Geyser/custom_mappings/geyser_waypoint_style_mappings.json
+       Geyser/packs/altarsmp-pack.zip          <- rename of packs/pack.zip
+
+     custom_mappings/ and packs/ are created if missing. pack.zip is placed
+     inside Geyser/packs/ (Geyser serves it to Bedrock clients automatically).
+
+1.4  Optional but recommended - exact item names in menus/recipes:
+       Geyser/locales-overrides/en_US.lang      <- copy lang/en_US.lang
+
+2. SERVER - GeyserDisplayEntity (item display entities: altars, VFX)
+----------------------------------------------------------------------
+2.1  Place the extension JAR (not redistributable here - download the release
+     artifact from github.com/GeyserMC/GeyserDisplayEntity releases, build
+     1.21.x matching your Geyser-Fabric build):
+
+       Geyser/extensions/GeyserDisplayEntity/GeyserDisplayEntity.jar
+
+     The full extension source snapshot ships in extensions/GeyserDisplayEntity/
+     for reference/rebuild (gradle build required: ./gradlew build).
+
+2.2  The pack that drives display visuals installs with the extension
+     (packs/GeyserDisplayEntityPack.mcpack - import into the server's
+     Geyser-pack auto-install, or let the extension push it).
+
+2.3  Copy the AltarSMP mapping template over what the extension generates on
+     first start:
+
+       plugins/Geyser-Fabric/extensions/GeyserDisplayEntity/config.yml
+         <- extensions/GeyserDisplayEntity-data/config.yml
+       plugins/Geyser-Fabric/extensions/GeyserDisplayEntity/Mappings/altarsmp-displays.yml
+         <- extensions/GeyserDisplayEntity-data/Mappings/altarsmp-displays.yml
+
+     The config disables "hide-unmapped-vanilla-displays" so any display we
+     did not explicitly map still shows (as the base item) instead of
+     vanishing, and removes "bone" from hide-types (BoneBlade uses bone
+     displays on this server).
+
+3. CLIENT (Bedrock players)
+----------------------------
+Nothing to install manually: Geyser serves packs/pack.zip to joining Bedrock
+clients. If you also want it local (singleplayer worlds / verification):
+  - double-click packs/altarsmp-pack.zip renamed to .mcpack, import, and
+    apply to the world as a resource pack.
+  - double-click packs/GeyserDisplayEntityPack.mcpack likewise.
+
+4. VERIFY
+----------
+4.1  Server log: "Loaded custom mappings" (Geyser) should report the
+     item-mappings file with no errors; "Registering custom item" lines for
+     altarsmp:* identifiers.
+4.2  Run the validator (stdlib Python 3.9+, no deps):
+
+       python3 tools/validator/validate.py .
+
+     Exit 0 = every mapping/texture/geometry/sound reference resolves.
+4.3  In-game checklist (one Bedrock + one Java player, same session):
+     - /alt give @s altarsmp:legendary  (or creative pick): Bedrock client
+       shows the custom model in hand, custom icon in hotbar/inventory.
+     - Crossbow (Vulcan's Crossbow): draw -> arrow-loaded visual swaps
+       (charge predicate); Java shows the same.
+     - Altar rooms: floating item displays render on both sides
+       (GeyserDisplayEntity).
+     - Nuke event: red concrete/ice/... marker displays + nuke sounds.
+     - Copper armour: netherite-base pieces render the copper armor layer
+       on Bedrock players (head/chest/legs/feet attachables).
+     - Sound test: sword spin (mythicweapons.sword_spin_075), dragon
+       ping (altarsmps2.dragonding).
+
+5. REBUILD / EXTEND
+--------------------
+Everything was generated from the five authoritative reference files; tooling
+lives in tools/ (altarbedrock package + build wrappers) and docs stay in the
+repo. To regenerate after a mod update:
+
+   python3 tools/build_catalog.py  --rp <rp-extract> --fabsrc <fab-src> --out docs/catalog
+   python3 tools/build.py          --rp <rp-extract> --fab <fab-jar-extract> \
+                                   --fabsrc <fab-src> --catalog docs/catalog/custom-items.json \
+                                   --out AltarSMP-Custom-Content --gde-repo <GDE-src>
+   python3 tools/make_reports.py
+   python3 tools/validator/validate.py AltarSMP-Custom-Content docs/catalog/custom-items.json
+
+Requires python3 + Pillow (pip install pillow). No Java toolchain needed for
+the pack itself; the GDE extension jar needs gradle/JDK.
+
+6. JAVA SIDE
+-------------
+Java players need the ORIGINAL AltarSMP resource pack (unchanged) - none of
+the files in this directory are required for Java, and none modify the mod.
+The two optional mod patches in documentation/MOD-PATCHES/ are strictly
+additive (they also improve Java behaviour); Java play is unaffected if you
+skip them.

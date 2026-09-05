@@ -1,0 +1,52 @@
+{
+ "format_version": "1.21.0",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "altarsmp:netherite_sword_c26",
+   "materials": {
+    "default": "entity_alphatest",
+    "enchanted": "entity_alphatest_glint"
+   },
+   "textures": {
+    "default": "textures/items/altarsmp/minecraft/item/dragon"
+   },
+   "geometry": {
+    "default": "geometry.altarsmp_netherite_sword_c26"
+   },
+   "render_controllers": [
+    "controller.render.altarsmp.altarsmp.netherite_sword_c26"
+   ],
+   "animations": {
+    "first_person": "animation.altarsmp_netherite_sword_c26.hold_first_person",
+    "third_person": "animation.altarsmp_netherite_sword_c26.hold_third_person",
+    "on_head": "animation.altarsmp_netherite_sword_c26.head",
+    "on_display": "animation.altarsmp_netherite_sword_c26.fixed"
+   },
+   "scripts": {
+    "animate": [
+     {
+      "first_person": "context.is_first_person == 1.0 && (context.item_slot == 'main_hand' || context.item_slot == 'off_hand')"
+     },
+     {
+      "third_person": "context.is_first_person == 0.0 && (context.item_slot == 'main_hand' || context.item_slot == 'off_hand')"
+     },
+     {
+      "on_head": "context.is_first_person == 0.0 && context.item_slot == 'head'"
+     },
+     {
+      "on_display": "context.is_first_person == 0.0 && (context.item_slot == 'slot.armor.chest' || context.item_slot == 'slot.armor.head')"
+     }
+    ]
+   },
+   "texture_animations": {
+    "default": {
+     "size": [
+      64,
+      64
+     ],
+     "fps": 6.6667
+    }
+   }
+  }
+ }
+}

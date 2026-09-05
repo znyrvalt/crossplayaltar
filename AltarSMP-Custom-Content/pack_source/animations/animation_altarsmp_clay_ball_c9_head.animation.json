@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_clay_ball_c9.head": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.0,
+      29.6613,
+      0.0
+     ],
+     "rotation": [
+      -0.0,
+      -0.0,
+      0.0
+     ],
+     "scale": [
+      0.655,
+      0.655,
+      0.655
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_clay_ball_c4.fixed": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.75,
+      15.5,
+      27.75
+     ],
+     "rotation": [
+      -88.25,
+      -0.0,
+      -0.0
+     ],
+     "scale": [
+      2.02148,
+      2.01172,
+      2.03125
+     ]
+    }
+   }
+  }
+ }
+}

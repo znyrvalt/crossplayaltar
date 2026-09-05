@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_crossbow_c1_arrow.fixed": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      0.0,
+      8.0,
+      40.5
+     ],
+     "rotation": [
+      89.87,
+      -0.03,
+      179.74
+     ],
+     "scale": [
+      3.01758,
+      3.06055,
+      3.00391
+     ]
+    }
+   }
+  }
+ }
+}

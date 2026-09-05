@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_bow_c1.hold_third_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.0,
+      8.75,
+      1.25
+     ],
+     "rotation": [
+      90.0,
+      -100.0,
+      90.0
+     ],
+     "scale": [
+      0.87305,
+      0.8418,
+      0.5
+     ]
+    }
+   }
+  }
+ }
+}

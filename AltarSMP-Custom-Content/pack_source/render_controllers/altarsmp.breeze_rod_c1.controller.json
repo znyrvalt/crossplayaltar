@@ -1,0 +1,16 @@
+{
+ "format_version": "1.8.0",
+ "render_controllers": {
+  "controller.render.altarsmp.altarsmp.breeze_rod_c1": {
+   "geometry": "Geometry.default",
+   "materials": [
+    {
+     "*": "variable.is_enchanted ? Material.enchanted : Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.default"
+   ]
+  }
+ }
+}

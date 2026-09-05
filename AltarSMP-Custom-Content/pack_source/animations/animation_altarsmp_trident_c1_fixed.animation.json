@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_trident_c1.fixed": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      0.0,
+      12.25,
+      41.75
+     ],
+     "rotation": [
+      -90.0,
+      -0.0,
+      -0.0
+     ],
+     "scale": [
+      2.25781,
+      2.52149,
+      2.50782
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,80 @@
+[
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/crazy_slots",
+  "atlas_tile": "altarsmp.clay_ball_c4",
+  "ticks_per_frame": 2,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/warden",
+  "atlas_tile": "altarsmp.clay_ball_c9",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/omen_texture",
+  "atlas_tile": "altarsmp.diamond_spear_c1",
+  "ticks_per_frame": 2,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/warden",
+  "atlas_tile": "altarsmp.feather_c1",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/shadowblade",
+  "atlas_tile": "altarsmp.netherite_sword_c10",
+  "ticks_per_frame": 2,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/wind",
+  "atlas_tile": "altarsmp.netherite_sword_c12",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/eclipse",
+  "atlas_tile": "altarsmp.netherite_sword_c14",
+  "ticks_per_frame": 4,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/ancientblade",
+  "atlas_tile": "altarsmp.netherite_sword_c25",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/dragon",
+  "atlas_tile": "altarsmp.netherite_sword_c26",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/nightpiercer",
+  "atlas_tile": "altarsmp.netherite_sword_c5",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/hyperion",
+  "atlas_tile": "altarsmp.netherite_sword_c6",
+  "ticks_per_frame": 3,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/custom/shadow_blob",
+  "atlas_tile": "altarsmp.paper_c4",
+  "ticks_per_frame": 1,
+  "replicate": 0
+ },
+ {
+  "flipbook_texture": "textures/items/altarsmp/minecraft/block/contagionsignal",
+  "atlas_tile": "altarsmp.stripped_crimson_hyphae_c1",
+  "ticks_per_frame": 4,
+  "replicate": 0
+ }
+]

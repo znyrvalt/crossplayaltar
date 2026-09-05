@@ -1,0 +1,34 @@
+Assets referenced by the ORIGINAL resource pack / current mod but absent from every reference file.
+These cannot be fabricated without placeholders; bedrock mirrors Java behaviour (vanilla fallback).
+
+Referenced but absent models (pack-internal breaks, pre-existing in AltarSMP-ResourcePack.zip):
+  - minecraft:clay_ball|1::clay_ball_c1: model block/heavy_core has no textures available in the pack (icon falls back to base-item look)
+  - minecraft:clay_ball|2::clay_ball_c2: model item/breeze_rod has no textures available in the pack (icon falls back to base-item look)
+  - minecraft:heavy_core|999::heavy_core_c999: model block/clear has no textures available in the pack (icon falls back to base-item look)
+  - minecraft:snowball|1::snowball_c1: model custom/ic has no textures available in the pack (icon falls back to base-item look)
+  - minecraft:snowball|2::snowball_c2: model custom/skull has no textures available in the pack (icon falls back to base-item look)
+  - minecraft:snowball|3::snowball_c3: model custom/redblock has no textures available in the pack (icon falls back to base-item look)
+
+Absent from the pack but provided by the vanilla client jar (Java renders them; Bedrock shows base-item look):
+  - minecraft:block/heavy_core (model+texture) — clay_ball|1 relic shard marker
+  - minecraft:item/breeze_rod (model+texture) — clay_ball|2
+  - minecraft:item/sculk-family textures — resolved via pack copy 'item/scuk' (shipped)
+
+Sound events declared in pack sounds.json but with no ogg in any reference file (silent on both sides):
+  - sound event minecraft:hv_dig.bomb_shoot has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.connect has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.dust has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.explosion has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.ground_crackle has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.hurt has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.leg_attack has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.rotation_crackle has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.rotation_metal has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.step has no ogg in either reference pack (silent on both sides)
+  - sound event minecraft:hv_dig.whoosh has no ogg in either reference pack (silent on both sides)
+
+Sound identifiers played by the mod that resolve to no Java event (silent on Java too):
+  - custom:bloodlust.resurface, custom:bloodlust.dive (BloodlustWeapon — no sounds.json entry anywhere)
+  - custom/nuke_incoming, custom/nuke_explosion as raw ids (event exists as minecraft:custom.nuke_incoming;
+    pack ships 'custom.nuke_incoming' + 'minecraft.custom.nuke_incoming' keys; see MOD-PATCHES note to
+    change the mod to play the event id so the alarm actually sounds on both sides)

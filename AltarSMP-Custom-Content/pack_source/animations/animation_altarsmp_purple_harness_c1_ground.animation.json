@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_purple_harness_c1.ground": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -1.5,
+      12.5,
+      -4.0
+     ],
+     "rotation": [
+      -0.0,
+      0.0,
+      0.0
+     ],
+     "scale": [
+      0.5,
+      0.5,
+      0.5
+     ]
+    }
+   }
+  }
+ }
+}

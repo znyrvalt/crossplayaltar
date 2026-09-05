@@ -1,0 +1,22 @@
+{
+ "format_version": "1.21.30",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "altarsmp:amethyst_shard_c5",
+   "materials": {
+    "default": "entity_alphatest",
+    "enchanted": "entity_alphatest_glint"
+   },
+   "textures": {
+    "default": "textures/items/altarsmp/minecraft/item/copper_shard",
+    "enchanted": "textures/misc/enchanted_item_glint"
+   },
+   "geometry": {
+    "default": "geometry.item_sprite"
+   },
+   "render_controllers": [
+    "controller.render.item_sprite"
+   ]
+  }
+ }
+}

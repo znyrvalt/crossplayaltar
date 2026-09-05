@@ -1,0 +1,172 @@
+AltarSMP 2.0.5 -> Bedrock parity report (2026-09-05)
+============================================================
+
+                  items_discovered: 22
+                           weapons: 30
+                             armor: 8
+                     altar_entries: 40
+       java_item_model_definitions: 580
+                item_command_sites: 236
+             required_cmd_variants: 72
+       bedrock_definitions_emitted: 72
+                 mapped_java_items: 24
+        unique_bedrock_identifiers: 72
+                        geometries: 56
+                       attachables: 68
+                        animations: 280
+                render_controllers: 60
+                item_texture_tiles: 68
+                     texture_files: 145
+            copied_source_textures: 69
+                         flipbooks: 13
+                      sound_events: 11
+                       sound_files: 9
+               gde_display_entries: 15
+          variants_fully_converted: 64
+          variants_fallback_visual: 6
+                 variants_unmapped: 2
+
+variant                                      status                       defs  bedrock id
+amethyst_shard|1                             converted                      1  altarsmp:amethyst_shard_c1
+amethyst_shard|2                             converted                      1  altarsmp:amethyst_shard_c2
+amethyst_shard|3                             converted                      1  altarsmp:amethyst_shard_c3
+amethyst_shard|4                             converted                      1  altarsmp:amethyst_shard_c4
+amethyst_shard|5                             converted                      1  altarsmp:amethyst_shard_c5
+amethyst_shard|6                             converted                      1  altarsmp:amethyst_shard_c6
+bow|1                                        converted                      1  altarsmp:bow_c1
+breeze_rod|1                                 converted                      1  altarsmp:breeze_rod_c1
+clay_ball|1                                  converted-fallback-visual      1  altarsmp:clay_ball_c1
+clay_ball|10                                 converted                      1  altarsmp:clay_ball_c10
+clay_ball|11                                 converted                      1  altarsmp:clay_ball_c11
+clay_ball|15                                 converted                      1  altarsmp:clay_ball_c15
+clay_ball|2                                  converted-fallback-visual      1  altarsmp:clay_ball_c2
+clay_ball|3                                  converted                      1  altarsmp:clay_ball_c3
+clay_ball|4                                  converted                      1  altarsmp:clay_ball_c4
+clay_ball|5                                  converted                      1  altarsmp:clay_ball_c5
+clay_ball|6                                  converted                      1  altarsmp:clay_ball_c6
+clay_ball|7                                  converted                      1  altarsmp:clay_ball_c7
+clay_ball|8                                  converted                      1  altarsmp:clay_ball_c8
+clay_ball|9                                  converted                      1  altarsmp:clay_ball_c9
+crossbow|1                                   converted                      3  altarsmp:crossbow_c1
+crossbow|2                                   converted                      1  altarsmp:crossbow_c2
+diamond_spear|1                              UNMAPPED                       0  -
+dragon_head|1                                converted                      1  altarsmp:dragon_head_c1
+echo_shard|22                                converted                      1  altarsmp:echo_shard_c22
+feather|1                                    converted                      1  altarsmp:feather_c1
+feather|2                                    converted                      1  altarsmp:feather_c2
+gold_nugget|8                                converted                      1  altarsmp:gold_nugget_c8
+heavy_core|998                               converted                      1  altarsmp:heavy_core_c998
+heavy_core|999                               converted-fallback-visual      1  altarsmp:heavy_core_c999
+iron_nugget|9                                converted                      1  altarsmp:iron_nugget_c9
+mace|15                                      converted                      1  altarsmp:mace_c15
+mace|16                                      converted                      1  altarsmp:mace_c16
+mace|17                                      converted                      1  altarsmp:mace_c17
+netherite_axe|1                              converted                      1  altarsmp:netherite_axe_c1
+netherite_axe|2                              converted                      1  altarsmp:netherite_axe_c2
+netherite_axe|3                              converted                      1  altarsmp:netherite_axe_c3
+netherite_boots|1                            converted                      1  altarsmp:netherite_boots_c1
+netherite_chestplate|1                       converted                      1  altarsmp:netherite_chestplate_c1
+netherite_helmet|1                           converted                      1  altarsmp:netherite_helmet_c1
+netherite_leggings|1                         converted                      1  altarsmp:netherite_leggings_c1
+netherite_pickaxe|1                          converted                      1  altarsmp:netherite_pickaxe_c1
+netherite_pickaxe|3                          converted                      1  altarsmp:netherite_pickaxe_c3
+netherite_sword|1                            converted                      1  altarsmp:netherite_sword_c1
+netherite_sword|10                           converted                      1  altarsmp:netherite_sword_c10
+netherite_sword|11                           converted                      1  altarsmp:netherite_sword_c11
+netherite_sword|12                           converted                      1  altarsmp:netherite_sword_c12
+netherite_sword|13                           converted                      1  altarsmp:netherite_sword_c13
+netherite_sword|14                           converted                      1  altarsmp:netherite_sword_c14
+netherite_sword|2                            converted                      1  altarsmp:netherite_sword_c2
+netherite_sword|25                           converted                      1  altarsmp:netherite_sword_c25
+netherite_sword|26                           converted                      1  altarsmp:netherite_sword_c26
+netherite_sword|27                           converted                      1  altarsmp:netherite_sword_c27
+netherite_sword|3                            converted                      1  altarsmp:netherite_sword_c3
+netherite_sword|4                            converted                      1  altarsmp:netherite_sword_c4
+netherite_sword|5                            converted                      1  altarsmp:netherite_sword_c5
+netherite_sword|6                            converted                      1  altarsmp:netherite_sword_c6
+netherite_sword|7                            converted                      1  altarsmp:netherite_sword_c7
+netherite_sword|8                            converted                      1  altarsmp:netherite_sword_c8
+netherite_sword|9                            converted                      1  altarsmp:netherite_sword_c9
+paper|1                                      converted                      1  altarsmp:paper_c1
+paper|2                                      converted                      1  altarsmp:paper_c2
+paper|3                                      converted                      1  altarsmp:paper_c3
+paper|4                                      converted                      1  altarsmp:paper_c4
+paper|5                                      converted                      1  altarsmp:paper_c5
+purple_harness|1                             UNMAPPED                       0  -
+red_concrete|1                               converted                      1  altarsmp:red_concrete_c1
+snowball|1                                   converted-fallback-visual      1  altarsmp:snowball_c1
+snowball|2                                   converted-fallback-visual      1  altarsmp:snowball_c2
+snowball|3                                   converted-fallback-visual      1  altarsmp:snowball_c3
+stripped_crimson_hyphae|1                    converted                      1  altarsmp:stripped_crimson_hyphae_c1
+trident|1                                    converted                      1  altarsmp:trident_c1
+
+unmapped usage (vanilla look both sides):
+  amethyst_shard|4  <- weapon:nuke_launcher, altar:season1:Nuke Launcher
+  bow|1  <- weapon:striker, altar:season1:Striker
+  bow|None  <- weapon:bow_of_deception
+  breeze_rod|1  <- item:WeaponHandle, item:WeaponHandle
+  breeze_rod|100  <- altar:season1:Weapon Handle
+  clay_ball|10  <- item:VulkanHead, altar:season1:Vulkan Head
+  clay_ball|15  <- item:SoulInABottle
+  clay_ball|18  <- altar:season1:Crazy Slots
+  clay_ball|4  <- weapon:crazyslots, weapon:minor_crazy_slots
+  clay_ball|9  <- item:WardenHeart, item:WardenHeart
+  copper_block|None  <- item:CopperChestplateFragment
+  copper_ingot|None  <- item:CopperFragment
+  crossbow|1  <- weapon:vulcanscrossbow, altar:season1:Vulcan's Crossbow
+  crossbow|2  <- weapon:palecrossbow, altar:season1:Pale Crossbow
+  diamond_boots|None  <- armor:copper_diamond_boots
+  diamond_chestplate|None  <- armor:copper_diamond_chestplate
+  diamond_helmet|None  <- armor:copper_diamond_helmet
+  diamond_leggings|None  <- armor:copper_diamond_leggings
+  dragon_head|1  <- item:DragonHeart
+  echo_shard|11  <- item:WardenHead, altar:season1:Warden Head
+  echo_shard|22  <- item:PaleShard
+  echo_shard|25  <- altar:season1:Pale Shard
+  ender_eye|103  <- altar:season1:Illusion Core
+  flint|102  <- altar:season1:Nightpiercer Shard
+  gold_nugget|101  <- altar:season1:Hyperion Shard
+  gold_nugget|8  <- item:HyperionShard
+  heavy_core|None  <- item:IllusionCore
+  iron_nugget|9  <- item:NightpiercerShard
+  mace|1  <- weapon:omen, altar:season2:Omen
+  mace|15  <- weapon:knightfall, altar:season1:Knightfall
+  nautilus_shell|None  <- item:FragmentOfTheSea
+  nether_star|20  <- item:WitherHeart
+  netherite_axe|2  <- weapon:paladinbattleaxe
+  netherite_axe|3  <- item:AmethystAxe, altar:season1:Paladin's Battle Axe
+  netherite_boots|1  <- armor:copper_boots
+  netherite_chestplate|1  <- armor:copper_chestplate
+  netherite_helmet|1  <- armor:copper_helmet
+  netherite_leggings|1  <- armor:copper_leggings
+  netherite_pickaxe|0  <- altar:season1:Copper Pickaxe Upgrade
+  netherite_pickaxe|1  <- item:CopperPickaxeII, altar:season1:Copper Pickaxe
+  netherite_pickaxe|3  <- item:AmethystPickaxe
+  netherite_sword|0  <- weapon:fire_slash, altar:season1:Fire Slash
+  netherite_sword|1  <- weapon:boneblade, altar:season1:Bone Blade
+  netherite_sword|10  <- weapon:shadowblade, altar:season1:Copper Chestplate
+  netherite_sword|11  <- weapon:cutlass
+  netherite_sword|12  <- weapon:windweaver, altar:season1:Cutlass
+  netherite_sword|13  <- weapon:echo, altar:season1:Echo
+  netherite_sword|14  <- weapon:eclipsesword, altar:season1:Eclipse
+  netherite_sword|2  <- weapon:wandofillusion, altar:season1:Wand of Illusion
+  netherite_sword|25  <- weapon:ancient_blade, altar:season2:Ancient Blade
+  netherite_sword|26  <- weapon:dragonrend, altar:season2:Dragonrend
+  netherite_sword|27  <- weapon:wither_symbiote
+  netherite_sword|3  <- weapon:bloodlust, altar:season1:Bloodlust
+  netherite_sword|4  <- weapon:frost_scythe, altar:season1:Frost Scythe
+  netherite_sword|5  <- weapon:nightpiercer, altar:season1:Nightpiercer
+  netherite_sword|6  <- weapon:hyperion, altar:season1:Hyperion
+  netherite_sword|7  <- weapon:pureblade, altar:season1:Pure Blade
+  netherite_sword|8  <- weapon:earthgauntlet, altar:season1:Earth Gauntlet
+  netherite_sword|9  <- weapon:witherbone
+  paper|1  <- blue-circle hologram — command/CommandRegistrar.java:1770 (BLUE_CIRCLE_MODEL=1)
+  paper|2  <- dragonrend clock void clock — weapon/s2/DragonrendWeapon.java voidClockPiece(2)
+  paper|3  <- dragonrend short arrow — weapon/s2/DragonrendWeapon.java voidClockPiece(3)
+  paper|4  <- altar:season2:Wither Symbiote
+  paper|5  <- dragonrend tall arrow — weapon/s2/DragonrendWeapon.java voidClockPiece(5)
+  recovery_compass|2000  <- item:PlayerTrackerItem, altar:season1:Player Tracker
+  saddle|1  <- item:BlackGhastSaddle
+  stripped_crimson_hyphae|1  <- weapon:contagionsignal
+  totem_of_undying|1026  <- altar:season1:Contagion Signal
+  trident|1  <- weapon:tidebreaker, altar:season2:Tidebreaker

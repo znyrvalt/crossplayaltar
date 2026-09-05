@@ -1,0 +1,104 @@
+{
+ "format_version": "1.14.0",
+ "definitions": {
+  "altarsmps2.dragonding": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/altarsmps2/dragonding"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "altarsmps2.dragontick_tack": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/altarsmps2/dragontick_tack"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "custom.nuke_explosion": {
+   "category": "neutral",
+   "sounds": [
+    {
+     "name": "sounds/minecraft/custom/nuke_explosion"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "minecraft.custom.nuke_explosion": {
+   "category": "neutral",
+   "sounds": [
+    {
+     "name": "sounds/minecraft/custom/nuke_explosion"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "custom.nuke_incoming": {
+   "category": "neutral",
+   "sounds": [
+    {
+     "name": "sounds/minecraft/custom/nuke_incoming"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "minecraft.custom.nuke_incoming": {
+   "category": "neutral",
+   "sounds": [
+    {
+     "name": "sounds/minecraft/custom/nuke_incoming"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "mythicweapons.bram": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/mythicweapons/bram"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "mythicweapons.electricity": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/mythicweapons/electricity"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "mythicweapons.heartbeat": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/mythicweapons/heartbeat"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "mythicweapons.sword_spin_030_high": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/mythicweapons/sword_spin_030_high"
+    }
+   ],
+   "min_distance": 1.0
+  },
+  "mythicweapons.sword_spin_075": {
+   "category": "player",
+   "sounds": [
+    {
+     "name": "sounds/mythicweapons/sword_spin_075"
+    }
+   ],
+   "min_distance": 1.0
+  }
+ }
+}

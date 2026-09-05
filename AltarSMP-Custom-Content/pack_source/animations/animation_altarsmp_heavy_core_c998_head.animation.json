@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_heavy_core_c998.head": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.0,
+      28.515,
+      -0.1638
+     ],
+     "rotation": [
+      -0.0,
+      180.0,
+      0.0
+     ],
+     "scale": [
+      0.655,
+      0.655,
+      0.655
+     ]
+    }
+   }
+  }
+ }
+}

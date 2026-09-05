@@ -1,0 +1,346 @@
+{
+ "resource_pack_name": "altarsmp",
+ "texture_name": "atlas.items",
+ "texture_data": {
+  "altarsmp.amethyst_shard_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c1"
+   ]
+  },
+  "altarsmp.amethyst_shard_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c2"
+   ]
+  },
+  "altarsmp.amethyst_shard_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c3"
+   ]
+  },
+  "altarsmp.amethyst_shard_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c4"
+   ]
+  },
+  "altarsmp.amethyst_shard_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c5"
+   ]
+  },
+  "altarsmp.amethyst_shard_c6": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c6"
+   ]
+  },
+  "altarsmp.bow_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.bow_c1"
+   ]
+  },
+  "altarsmp.breeze_rod_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.breeze_rod_c1"
+   ]
+  },
+  "altarsmp.clay_ball_c10": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c10"
+   ]
+  },
+  "altarsmp.clay_ball_c11": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c11"
+   ]
+  },
+  "altarsmp.clay_ball_c15": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c15"
+   ]
+  },
+  "altarsmp.clay_ball_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c3"
+   ]
+  },
+  "altarsmp.clay_ball_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c4"
+   ]
+  },
+  "altarsmp.clay_ball_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c5"
+   ]
+  },
+  "altarsmp.clay_ball_c6": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c6"
+   ]
+  },
+  "altarsmp.clay_ball_c7": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c7"
+   ]
+  },
+  "altarsmp.clay_ball_c8": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c8"
+   ]
+  },
+  "altarsmp.clay_ball_c9": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c9"
+   ]
+  },
+  "altarsmp.crossbow_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c1"
+   ]
+  },
+  "altarsmp.crossbow_c1_arrow": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c1_arrow"
+   ]
+  },
+  "altarsmp.crossbow_c1_rocket": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c1_rocket"
+   ]
+  },
+  "altarsmp.crossbow_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c2"
+   ]
+  },
+  "altarsmp.diamond_spear_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.diamond_spear_c1"
+   ]
+  },
+  "altarsmp.dragon_head_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.dragon_head_c1"
+   ]
+  },
+  "altarsmp.echo_shard_c22": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.echo_shard_c22"
+   ]
+  },
+  "altarsmp.feather_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.feather_c1"
+   ]
+  },
+  "altarsmp.feather_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.feather_c2"
+   ]
+  },
+  "altarsmp.gold_nugget_c8": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.gold_nugget_c8"
+   ]
+  },
+  "altarsmp.heavy_core_c998": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.heavy_core_c998"
+   ]
+  },
+  "altarsmp.iron_nugget_c9": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.iron_nugget_c9"
+   ]
+  },
+  "altarsmp.mace_c15": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.mace_c15"
+   ]
+  },
+  "altarsmp.mace_c16": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.mace_c16"
+   ]
+  },
+  "altarsmp.mace_c17": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.mace_c17"
+   ]
+  },
+  "altarsmp.netherite_axe_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_axe_c1"
+   ]
+  },
+  "altarsmp.netherite_axe_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_axe_c2"
+   ]
+  },
+  "altarsmp.netherite_axe_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_axe_c3"
+   ]
+  },
+  "altarsmp.netherite_boots_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_boots_c1"
+   ]
+  },
+  "altarsmp.netherite_chestplate_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_chestplate_c1"
+   ]
+  },
+  "altarsmp.netherite_helmet_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_helmet_c1"
+   ]
+  },
+  "altarsmp.netherite_leggings_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_leggings_c1"
+   ]
+  },
+  "altarsmp.netherite_pickaxe_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_pickaxe_c1"
+   ]
+  },
+  "altarsmp.netherite_pickaxe_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_pickaxe_c3"
+   ]
+  },
+  "altarsmp.netherite_sword_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c1"
+   ]
+  },
+  "altarsmp.netherite_sword_c10": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c10"
+   ]
+  },
+  "altarsmp.netherite_sword_c11": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c11"
+   ]
+  },
+  "altarsmp.netherite_sword_c12": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c12"
+   ]
+  },
+  "altarsmp.netherite_sword_c13": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c13"
+   ]
+  },
+  "altarsmp.netherite_sword_c14": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c14"
+   ]
+  },
+  "altarsmp.netherite_sword_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c2"
+   ]
+  },
+  "altarsmp.netherite_sword_c25": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c25"
+   ]
+  },
+  "altarsmp.netherite_sword_c26": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c26"
+   ]
+  },
+  "altarsmp.netherite_sword_c27": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c27"
+   ]
+  },
+  "altarsmp.netherite_sword_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c3"
+   ]
+  },
+  "altarsmp.netherite_sword_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c4"
+   ]
+  },
+  "altarsmp.netherite_sword_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c5"
+   ]
+  },
+  "altarsmp.netherite_sword_c6": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c6"
+   ]
+  },
+  "altarsmp.netherite_sword_c7": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c7"
+   ]
+  },
+  "altarsmp.netherite_sword_c8": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c8"
+   ]
+  },
+  "altarsmp.netherite_sword_c9": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c9"
+   ]
+  },
+  "altarsmp.paper_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c1"
+   ]
+  },
+  "altarsmp.paper_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c2"
+   ]
+  },
+  "altarsmp.paper_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c3"
+   ]
+  },
+  "altarsmp.paper_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c4"
+   ]
+  },
+  "altarsmp.paper_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c5"
+   ]
+  },
+  "altarsmp.purple_harness_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.purple_harness_c1"
+   ]
+  },
+  "altarsmp.red_concrete_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.red_concrete_c1"
+   ]
+  },
+  "altarsmp.stripped_crimson_hyphae_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.stripped_crimson_hyphae_c1"
+   ]
+  },
+  "altarsmp.trident_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.trident_c1"
+   ]
+  }
+ }
+}
