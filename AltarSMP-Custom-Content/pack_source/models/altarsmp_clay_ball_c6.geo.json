@@ -1,0 +1,184 @@
+{
+ "format_version": "1.21.0",
+ "minecraft:geometry": [
+  {
+   "description": {
+    "identifier": "geometry.altarsmp_clay_ball_c6",
+    "visible_bounds_width": 4.0,
+    "visible_bounds_height": 4.0,
+    "visible_bounds_offset": [
+     0,
+     0.75,
+     0
+    ],
+    "texture_width": 128,
+    "texture_height": 128
+   },
+   "bones": [
+    {
+     "name": "bone",
+     "pivot": [
+      0.0,
+      8.0,
+      0.0
+     ],
+     "bind_pose_rotation": [
+      0,
+      0,
+      0
+     ],
+     "cubes": [
+      {
+       "origin": [
+        -8.0,
+        0.0,
+        -8.0
+       ],
+       "size": [
+        16.0,
+        16.0,
+        16.0
+       ],
+       "uv": {
+        "north": {
+         "uv": [
+          2.25,
+          4.5
+         ],
+         "uv_size": [
+          2.0,
+          2.0
+         ]
+        },
+        "east": {
+         "uv": [
+          4.5,
+          2.25
+         ],
+         "uv_size": [
+          2.0,
+          2.0
+         ]
+        },
+        "south": {
+         "uv": [
+          4.25,
+          4.5
+         ],
+         "uv_size": [
+          2.0,
+          2.0
+         ]
+        },
+        "west": {
+         "uv": [
+          6.25,
+          4.25
+         ],
+         "uv_size": [
+          2.0,
+          2.0
+         ]
+        },
+        "up": {
+         "uv": [
+          8.25,
+          8.25
+         ],
+         "uv_size": [
+          2.0,
+          2.0
+         ]
+        },
+        "down": {
+         "uv": [
+          4.25,
+          8.5
+         ],
+         "uv_size": [
+          2.0,
+          -2.0
+         ]
+        }
+       }
+      },
+      {
+       "origin": [
+        -9.0,
+        -1.0,
+        -9.0
+       ],
+       "size": [
+        18.0,
+        18.0,
+        18.0
+       ],
+       "uv": {
+        "north": {
+         "uv": [
+          0.0,
+          0.0
+         ],
+         "uv_size": [
+          2.25,
+          2.25
+         ]
+        },
+        "east": {
+         "uv": [
+          0.0,
+          2.25
+         ],
+         "uv_size": [
+          2.25,
+          2.25
+         ]
+        },
+        "south": {
+         "uv": [
+          2.25,
+          0.0
+         ],
+         "uv_size": [
+          2.25,
+          2.25
+         ]
+        },
+        "west": {
+         "uv": [
+          2.25,
+          2.25
+         ],
+         "uv_size": [
+          2.25,
+          2.25
+         ]
+        },
+        "up": {
+         "uv": [
+          2.25,
+          6.75
+         ],
+         "uv_size": [
+          2.25,
+          2.25
+         ]
+        },
+        "down": {
+         "uv": [
+          6.75,
+          2.25
+         ],
+         "uv_size": [
+          2.25,
+          -2.25
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

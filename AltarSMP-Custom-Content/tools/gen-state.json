@@ -1,0 +1,1199 @@
+{
+ "mappings_items": {
+  "minecraft:amethyst_shard": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:amethyst_shard_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.amethyst_shard_c1"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:amethyst_shard_c2",
+    "bedrock_options": {
+     "icon": "altarsmp.amethyst_shard_c2"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:amethyst_shard_c3",
+    "bedrock_options": {
+     "icon": "altarsmp.amethyst_shard_c3"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 4,
+    "bedrock_identifier": "altarsmp:amethyst_shard_c4",
+    "bedrock_options": {
+     "icon": "altarsmp.amethyst_shard_c4"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 5,
+    "bedrock_identifier": "altarsmp:amethyst_shard_c5",
+    "bedrock_options": {
+     "icon": "altarsmp.amethyst_shard_c5"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 6,
+    "bedrock_identifier": "altarsmp:amethyst_shard_c6",
+    "bedrock_options": {
+     "icon": "altarsmp.amethyst_shard_c6"
+    }
+   }
+  ],
+  "minecraft:bow": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:bow_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.bow_c1",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:breeze_rod": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:breeze_rod_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.breeze_rod_c1"
+    }
+   }
+  ],
+  "minecraft:clay_ball": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:clay_ball_c1"
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 10,
+    "bedrock_identifier": "altarsmp:clay_ball_c10",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c10"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 11,
+    "bedrock_identifier": "altarsmp:clay_ball_c11",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c11"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 15,
+    "bedrock_identifier": "altarsmp:clay_ball_c15",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c15"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:clay_ball_c2"
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:clay_ball_c3",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c3"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 4,
+    "bedrock_identifier": "altarsmp:clay_ball_c4",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c4"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 5,
+    "bedrock_identifier": "altarsmp:clay_ball_c5",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c5"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 6,
+    "bedrock_identifier": "altarsmp:clay_ball_c6",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c6"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 7,
+    "bedrock_identifier": "altarsmp:clay_ball_c7",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c7"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 8,
+    "bedrock_identifier": "altarsmp:clay_ball_c8",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c8"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 9,
+    "bedrock_identifier": "altarsmp:clay_ball_c9",
+    "bedrock_options": {
+     "icon": "altarsmp.clay_ball_c9"
+    }
+   }
+  ],
+  "minecraft:crossbow": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:crossbow_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.crossbow_c1",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:crossbow_c1_arrow",
+    "bedrock_options": {
+     "icon": "altarsmp.crossbow_c1_arrow",
+     "display_handheld": true
+    },
+    "predicate": {
+     "type": "match",
+     "match": {
+      "type": "charge_type",
+      "value": "arrow"
+     }
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:crossbow_c1_rocket",
+    "bedrock_options": {
+     "icon": "altarsmp.crossbow_c1_rocket",
+     "display_handheld": true
+    },
+    "predicate": {
+     "type": "match",
+     "match": {
+      "type": "charge_type",
+      "value": "rocket"
+     }
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:crossbow_c2",
+    "bedrock_options": {
+     "icon": "altarsmp.crossbow_c2",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:dragon_head": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:dragon_head_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.dragon_head_c1"
+    }
+   }
+  ],
+  "minecraft:echo_shard": [
+   {
+    "type": "legacy",
+    "custom_model_data": 22,
+    "bedrock_identifier": "altarsmp:echo_shard_c22",
+    "bedrock_options": {
+     "icon": "altarsmp.echo_shard_c22"
+    }
+   }
+  ],
+  "minecraft:feather": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:feather_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.feather_c1"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:feather_c2",
+    "bedrock_options": {
+     "icon": "altarsmp.feather_c2"
+    }
+   }
+  ],
+  "minecraft:gold_nugget": [
+   {
+    "type": "legacy",
+    "custom_model_data": 8,
+    "bedrock_identifier": "altarsmp:gold_nugget_c8",
+    "bedrock_options": {
+     "icon": "altarsmp.gold_nugget_c8"
+    }
+   }
+  ],
+  "minecraft:heavy_core": [
+   {
+    "type": "legacy",
+    "custom_model_data": 998,
+    "bedrock_identifier": "altarsmp:heavy_core_c998",
+    "bedrock_options": {
+     "icon": "altarsmp.heavy_core_c998"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 999,
+    "bedrock_identifier": "altarsmp:heavy_core_c999"
+   }
+  ],
+  "minecraft:iron_nugget": [
+   {
+    "type": "legacy",
+    "custom_model_data": 9,
+    "bedrock_identifier": "altarsmp:iron_nugget_c9",
+    "bedrock_options": {
+     "icon": "altarsmp.iron_nugget_c9"
+    }
+   }
+  ],
+  "minecraft:mace": [
+   {
+    "type": "legacy",
+    "custom_model_data": 15,
+    "bedrock_identifier": "altarsmp:mace_c15",
+    "bedrock_options": {
+     "icon": "altarsmp.mace_c15",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 16,
+    "bedrock_identifier": "altarsmp:mace_c16",
+    "bedrock_options": {
+     "icon": "altarsmp.mace_c16",
+     "display_handheld": true
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 17,
+    "bedrock_identifier": "altarsmp:mace_c17",
+    "bedrock_options": {
+     "icon": "altarsmp.mace_c17",
+     "display_handheld": true
+    }
+   }
+  ],
+  "minecraft:netherite_axe": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_axe_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_axe_c1"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:netherite_axe_c2",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_axe_c2"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:netherite_axe_c3",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_axe_c3"
+    }
+   }
+  ],
+  "minecraft:netherite_boots": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_boots_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_boots_c1",
+     "protection_value": 3
+    },
+    "components": {
+     "minecraft:equippable": {
+      "slot": "feet"
+     }
+    }
+   }
+  ],
+  "minecraft:netherite_chestplate": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_chestplate_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_chestplate_c1",
+     "protection_value": 8
+    },
+    "components": {
+     "minecraft:equippable": {
+      "slot": "chest"
+     }
+    }
+   }
+  ],
+  "minecraft:netherite_helmet": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_helmet_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_helmet_c1",
+     "protection_value": 3
+    },
+    "components": {
+     "minecraft:equippable": {
+      "slot": "head"
+     }
+    }
+   }
+  ],
+  "minecraft:netherite_leggings": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_leggings_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_leggings_c1",
+     "protection_value": 6
+    },
+    "components": {
+     "minecraft:equippable": {
+      "slot": "legs"
+     }
+    }
+   }
+  ],
+  "minecraft:netherite_pickaxe": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_pickaxe_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_pickaxe_c1"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:netherite_pickaxe_c3",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_pickaxe_c3"
+    }
+   }
+  ],
+  "minecraft:netherite_sword": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:netherite_sword_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c1"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 10,
+    "bedrock_identifier": "altarsmp:netherite_sword_c10",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c10"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 11,
+    "bedrock_identifier": "altarsmp:netherite_sword_c11",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c11"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 12,
+    "bedrock_identifier": "altarsmp:netherite_sword_c12",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c12"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 13,
+    "bedrock_identifier": "altarsmp:netherite_sword_c13",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c13"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 14,
+    "bedrock_identifier": "altarsmp:netherite_sword_c14",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c14"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:netherite_sword_c2",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c2"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 25,
+    "bedrock_identifier": "altarsmp:netherite_sword_c25",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c25"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 26,
+    "bedrock_identifier": "altarsmp:netherite_sword_c26",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c26"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 27,
+    "bedrock_identifier": "altarsmp:netherite_sword_c27",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c27"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:netherite_sword_c3",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c3"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 4,
+    "bedrock_identifier": "altarsmp:netherite_sword_c4",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c4"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 5,
+    "bedrock_identifier": "altarsmp:netherite_sword_c5",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c5"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 6,
+    "bedrock_identifier": "altarsmp:netherite_sword_c6",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c6"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 7,
+    "bedrock_identifier": "altarsmp:netherite_sword_c7",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c7"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 8,
+    "bedrock_identifier": "altarsmp:netherite_sword_c8",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c8"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 9,
+    "bedrock_identifier": "altarsmp:netherite_sword_c9",
+    "bedrock_options": {
+     "icon": "altarsmp.netherite_sword_c9"
+    }
+   }
+  ],
+  "minecraft:paper": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:paper_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.paper_c1"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:paper_c2",
+    "bedrock_options": {
+     "icon": "altarsmp.paper_c2"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:paper_c3",
+    "bedrock_options": {
+     "icon": "altarsmp.paper_c3"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 4,
+    "bedrock_identifier": "altarsmp:paper_c4",
+    "bedrock_options": {
+     "icon": "altarsmp.paper_c4"
+    }
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 5,
+    "bedrock_identifier": "altarsmp:paper_c5",
+    "bedrock_options": {
+     "icon": "altarsmp.paper_c5"
+    }
+   }
+  ],
+  "minecraft:red_concrete": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:red_concrete_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.red_concrete_c1"
+    }
+   }
+  ],
+  "minecraft:snowball": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:snowball_c1"
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 2,
+    "bedrock_identifier": "altarsmp:snowball_c2"
+   },
+   {
+    "type": "legacy",
+    "custom_model_data": 3,
+    "bedrock_identifier": "altarsmp:snowball_c3"
+   }
+  ],
+  "minecraft:stripped_crimson_hyphae": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:stripped_crimson_hyphae_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.stripped_crimson_hyphae_c1"
+    }
+   }
+  ],
+  "minecraft:trident": [
+   {
+    "type": "legacy",
+    "custom_model_data": 1,
+    "bedrock_identifier": "altarsmp:trident_c1",
+    "bedrock_options": {
+     "icon": "altarsmp.trident_c1",
+     "display_handheld": true
+    }
+   }
+  ]
+ },
+ "item_texture": {
+  "altarsmp.amethyst_shard_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c1"
+   ]
+  },
+  "altarsmp.amethyst_shard_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c2"
+   ]
+  },
+  "altarsmp.amethyst_shard_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c3"
+   ]
+  },
+  "altarsmp.amethyst_shard_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c4"
+   ]
+  },
+  "altarsmp.amethyst_shard_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c5"
+   ]
+  },
+  "altarsmp.amethyst_shard_c6": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.amethyst_shard_c6"
+   ]
+  },
+  "altarsmp.bow_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.bow_c1"
+   ]
+  },
+  "altarsmp.breeze_rod_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.breeze_rod_c1"
+   ]
+  },
+  "altarsmp.clay_ball_c10": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c10"
+   ]
+  },
+  "altarsmp.clay_ball_c11": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c11"
+   ]
+  },
+  "altarsmp.clay_ball_c15": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c15"
+   ]
+  },
+  "altarsmp.clay_ball_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c3"
+   ]
+  },
+  "altarsmp.clay_ball_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c4"
+   ]
+  },
+  "altarsmp.clay_ball_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c5"
+   ]
+  },
+  "altarsmp.clay_ball_c6": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c6"
+   ]
+  },
+  "altarsmp.clay_ball_c7": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c7"
+   ]
+  },
+  "altarsmp.clay_ball_c8": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c8"
+   ]
+  },
+  "altarsmp.clay_ball_c9": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.clay_ball_c9"
+   ]
+  },
+  "altarsmp.crossbow_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c1"
+   ]
+  },
+  "altarsmp.crossbow_c1_arrow": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c1_arrow"
+   ]
+  },
+  "altarsmp.crossbow_c1_rocket": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c1_rocket"
+   ]
+  },
+  "altarsmp.crossbow_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.crossbow_c2"
+   ]
+  },
+  "altarsmp.diamond_spear_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.diamond_spear_c1"
+   ]
+  },
+  "altarsmp.dragon_head_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.dragon_head_c1"
+   ]
+  },
+  "altarsmp.echo_shard_c22": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.echo_shard_c22"
+   ]
+  },
+  "altarsmp.feather_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.feather_c1"
+   ]
+  },
+  "altarsmp.feather_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.feather_c2"
+   ]
+  },
+  "altarsmp.gold_nugget_c8": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.gold_nugget_c8"
+   ]
+  },
+  "altarsmp.heavy_core_c998": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.heavy_core_c998"
+   ]
+  },
+  "altarsmp.iron_nugget_c9": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.iron_nugget_c9"
+   ]
+  },
+  "altarsmp.mace_c15": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.mace_c15"
+   ]
+  },
+  "altarsmp.mace_c16": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.mace_c16"
+   ]
+  },
+  "altarsmp.mace_c17": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.mace_c17"
+   ]
+  },
+  "altarsmp.netherite_axe_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_axe_c1"
+   ]
+  },
+  "altarsmp.netherite_axe_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_axe_c2"
+   ]
+  },
+  "altarsmp.netherite_axe_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_axe_c3"
+   ]
+  },
+  "altarsmp.netherite_boots_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_boots_c1"
+   ]
+  },
+  "altarsmp.netherite_chestplate_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_chestplate_c1"
+   ]
+  },
+  "altarsmp.netherite_helmet_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_helmet_c1"
+   ]
+  },
+  "altarsmp.netherite_leggings_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_leggings_c1"
+   ]
+  },
+  "altarsmp.netherite_pickaxe_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_pickaxe_c1"
+   ]
+  },
+  "altarsmp.netherite_pickaxe_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_pickaxe_c3"
+   ]
+  },
+  "altarsmp.netherite_sword_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c1"
+   ]
+  },
+  "altarsmp.netherite_sword_c10": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c10"
+   ]
+  },
+  "altarsmp.netherite_sword_c11": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c11"
+   ]
+  },
+  "altarsmp.netherite_sword_c12": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c12"
+   ]
+  },
+  "altarsmp.netherite_sword_c13": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c13"
+   ]
+  },
+  "altarsmp.netherite_sword_c14": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c14"
+   ]
+  },
+  "altarsmp.netherite_sword_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c2"
+   ]
+  },
+  "altarsmp.netherite_sword_c25": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c25"
+   ]
+  },
+  "altarsmp.netherite_sword_c26": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c26"
+   ]
+  },
+  "altarsmp.netherite_sword_c27": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c27"
+   ]
+  },
+  "altarsmp.netherite_sword_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c3"
+   ]
+  },
+  "altarsmp.netherite_sword_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c4"
+   ]
+  },
+  "altarsmp.netherite_sword_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c5"
+   ]
+  },
+  "altarsmp.netherite_sword_c6": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c6"
+   ]
+  },
+  "altarsmp.netherite_sword_c7": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c7"
+   ]
+  },
+  "altarsmp.netherite_sword_c8": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c8"
+   ]
+  },
+  "altarsmp.netherite_sword_c9": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.netherite_sword_c9"
+   ]
+  },
+  "altarsmp.paper_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c1"
+   ]
+  },
+  "altarsmp.paper_c2": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c2"
+   ]
+  },
+  "altarsmp.paper_c3": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c3"
+   ]
+  },
+  "altarsmp.paper_c4": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c4"
+   ]
+  },
+  "altarsmp.paper_c5": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.paper_c5"
+   ]
+  },
+  "altarsmp.purple_harness_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.purple_harness_c1"
+   ]
+  },
+  "altarsmp.red_concrete_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.red_concrete_c1"
+   ]
+  },
+  "altarsmp.stripped_crimson_hyphae_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.stripped_crimson_hyphae_c1"
+   ]
+  },
+  "altarsmp.trident_c1": {
+   "textures": [
+    "textures/items/altarsmp/altarsmp.trident_c1"
+   ]
+  }
+ },
+ "lang": {},
+ "flipbooks": [
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/crazy_slots",
+   "atlas_tile": "altarsmp.clay_ball_c4",
+   "ticks_per_frame": 2,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/warden",
+   "atlas_tile": "altarsmp.clay_ball_c9",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/omen_texture",
+   "atlas_tile": "altarsmp.diamond_spear_c1",
+   "ticks_per_frame": 2,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/warden",
+   "atlas_tile": "altarsmp.feather_c1",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/shadowblade",
+   "atlas_tile": "altarsmp.netherite_sword_c10",
+   "ticks_per_frame": 2,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/wind",
+   "atlas_tile": "altarsmp.netherite_sword_c12",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/eclipse",
+   "atlas_tile": "altarsmp.netherite_sword_c14",
+   "ticks_per_frame": 4,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/ancientblade",
+   "atlas_tile": "altarsmp.netherite_sword_c25",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/dragon",
+   "atlas_tile": "altarsmp.netherite_sword_c26",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/nightpiercer",
+   "atlas_tile": "altarsmp.netherite_sword_c5",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/item/altar/hyperion",
+   "atlas_tile": "altarsmp.netherite_sword_c6",
+   "ticks_per_frame": 3,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/custom/shadow_blob",
+   "atlas_tile": "altarsmp.paper_c4",
+   "ticks_per_frame": 1,
+   "replicate": 0
+  },
+  {
+   "flipbook_texture": "textures/items/altarsmp/minecraft/block/contagionsignal",
+   "atlas_tile": "altarsmp.stripped_crimson_hyphae_c1",
+   "ticks_per_frame": 4,
+   "replicate": 0
+  }
+ ],
+ "raw_flips": [
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/crazy_slots",
+   "frame_time": 2,
+   "frame_height": 64,
+   "frame_width": 64,
+   "source_height": 640,
+   "source_width": 64,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/warden",
+   "frame_time": 3,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 352,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/omen_texture",
+   "frame_time": 2,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 576,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/warden",
+   "frame_time": 3,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 352,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/altar/shadowblade",
+   "frame_time": 2,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 416,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/wind",
+   "frame_time": 3,
+   "frame_height": 64,
+   "frame_width": 64,
+   "source_height": 768,
+   "source_width": 64,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/altar/eclipse",
+   "frame_time": 4,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 448,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/ancientblade",
+   "frame_time": 3,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 224,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/dragon",
+   "frame_time": 3,
+   "frame_height": 64,
+   "frame_width": 64,
+   "source_height": 512,
+   "source_width": 64,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/altar/nightpiercer",
+   "frame_time": 3,
+   "frame_height": 64,
+   "frame_width": 64,
+   "source_height": 576,
+   "source_width": 64,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/item/altar/hyperion",
+   "frame_time": 3,
+   "frame_height": 32,
+   "frame_width": 32,
+   "source_height": 416,
+   "source_width": 32,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/custom/shadow_blob",
+   "frame_time": 1,
+   "frame_height": 16,
+   "frame_width": 16,
+   "source_height": 16,
+   "source_width": 16,
+   "atlas_flipbook": false
+  },
+  {
+   "texture": "textures/items/altarsmp/minecraft/block/contagionsignal",
+   "frame_time": 4,
+   "frame_height": 16,
+   "frame_width": 16,
+   "source_height": 144,
+   "source_width": 16,
+   "atlas_flipbook": false
+  }
+ ]
+}

@@ -1,0 +1,2961 @@
+{
+ "generated": "2026-09-05",
+ "inputs": {
+  "fabric_jar": "altarsmp-fabric-2.0.5.jar",
+  "fabric_sources": "altarsmp-fabric-2.0.5-sources.jar",
+  "original_jar": "Altar_SMPS1-2 (1).jar",
+  "original_sources": "Altar_SMPS1-2-sources-FRESH.jar",
+  "original_resource_pack": "AltarSMP-ResourcePack.zip"
+ },
+ "counts": {
+  "items_discovered": 22,
+  "weapons": 30,
+  "armor": 8,
+  "altar_entries": 40,
+  "java_item_model_definitions": 580,
+  "item_command_sites": 236,
+  "required_cmd_variants": 72,
+  "bedrock_definitions_emitted": 72,
+  "mapped_java_items": 24,
+  "unique_bedrock_identifiers": 72,
+  "geometries": 56,
+  "attachables": 68,
+  "animations": 280,
+  "render_controllers": 60,
+  "item_texture_tiles": 68,
+  "texture_files": 145,
+  "copied_source_textures": 69,
+  "flipbooks": 13,
+  "sound_events": 11,
+  "sound_files": 9,
+  "gde_display_entries": 15,
+  "variants_fully_converted": 64,
+  "variants_fallback_visual": 6,
+  "variants_unmapped": 2
+ },
+ "variants": [
+  {
+   "java_item": "minecraft:amethyst_shard",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/vampire"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:amethyst_shard_c1",
+     "icon": "altarsmp.amethyst_shard_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:amethyst_shard_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:amethyst_shard",
+   "cmd": 2,
+   "java_states": {
+    "idle": "custom/pale"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:amethyst_shard_c2",
+     "icon": "altarsmp.amethyst_shard_c2",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:amethyst_shard_c2",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:amethyst_shard",
+   "cmd": 3,
+   "java_states": {
+    "idle": "custom/human"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:amethyst_shard_c3",
+     "icon": "altarsmp.amethyst_shard_c3",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:amethyst_shard_c3",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:amethyst_shard",
+   "cmd": 4,
+   "java_states": {
+    "idle": "weapons/arc5/nukeremote"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:4"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:amethyst_shard_c4",
+     "icon": "altarsmp.amethyst_shard_c4",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:amethyst_shard_c4",
+     "geometry": true,
+     "note": "weapon:nuke_launcher",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:amethyst_shard",
+   "cmd": 5,
+   "java_states": {
+    "idle": "custom/copper_shard"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:5"
+   ],
+   "missing_refs": [
+    "idle: model minecraft:item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:amethyst_shard_c5",
+     "icon": "altarsmp.amethyst_shard_c5",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:amethyst_shard_c5",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:amethyst_shard",
+   "cmd": 6,
+   "java_states": {
+    "idle": "custom/chestplateshard"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:6"
+   ],
+   "missing_refs": [
+    "idle: model minecraft:item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:amethyst_shard_c6",
+     "icon": "altarsmp.amethyst_shard_c6",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:amethyst_shard_c6",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:bow",
+   "cmd": 1,
+   "java_states": {
+    "idle": "weapons/arc5/bow"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:bow_c1",
+     "icon": "altarsmp.bow_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:bow_c1",
+     "geometry": true,
+     "note": "weapon:striker",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:breeze_rod",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/weapon_handle"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:breeze_rod_c1",
+     "icon": "altarsmp.breeze_rod_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:breeze_rod_c1",
+     "geometry": true,
+     "note": "item:WeaponHandle",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 1,
+   "java_states": {
+    "idle": "block/heavy_core"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c1",
+     "icon": null,
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": true,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted-fallback-visual"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 10,
+   "java_states": {
+    "idle": "custom/vulcsk"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:10"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c10",
+     "icon": "altarsmp.clay_ball_c10",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c10",
+     "geometry": true,
+     "note": "item:VulkanHead",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 11,
+   "java_states": {
+    "idle": "custom/pale_logs"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:11"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c11",
+     "icon": "altarsmp.clay_ball_c11",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c11",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 15,
+   "java_states": {
+    "idle": "custom/soul"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:15"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c15",
+     "icon": "altarsmp.clay_ball_c15",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c15",
+     "geometry": true,
+     "note": "item:SoulInABottle",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 2,
+   "java_states": {
+    "idle": "item/breeze_rod"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [
+    "idle: model item/breeze_rod not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c2",
+     "icon": null,
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c2",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": true,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted-fallback-visual"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 3,
+   "java_states": {
+    "idle": "custom/vulcsk"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c3",
+     "icon": "altarsmp.clay_ball_c3",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c3",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 4,
+   "java_states": {
+    "idle": "custom/crazy_slots"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:4"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c4",
+     "icon": "altarsmp.clay_ball_c4",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c4",
+     "geometry": true,
+     "note": "weapon:minor_crazy_slots",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 5,
+   "java_states": {
+    "idle": "custom/beam"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:5"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c5",
+     "icon": "altarsmp.clay_ball_c5",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c5",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 6,
+   "java_states": {
+    "idle": "custom/black_cubes"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:6"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c6",
+     "icon": "altarsmp.clay_ball_c6",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c6",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 7,
+   "java_states": {
+    "idle": "custom/slashing"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:7"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c7",
+     "icon": "altarsmp.clay_ball_c7",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c7",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 8,
+   "java_states": {
+    "idle": "custom/massive_axe"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:8"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c8",
+     "icon": "altarsmp.clay_ball_c8",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c8",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:clay_ball",
+   "cmd": 9,
+   "java_states": {
+    "idle": "custom/warden"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:9"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:clay_ball_c9",
+     "icon": "altarsmp.clay_ball_c9",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:clay_ball_c9",
+     "geometry": true,
+     "note": "item:WardenHeart",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:crossbow",
+   "cmd": 1,
+   "java_states": {
+    "idle": "minecraft:weapons/vulcan/vulcan",
+    "idle.charge_arrow": "minecraft:weapons/vulcan/vulcanloading3",
+    "idle.charge_rocket": "minecraft:weapons/vulcan/vulcanloading3",
+    "idle.using": "minecraft:weapons/vulcan/vulcan",
+    "idle.using.pull1": "minecraft:weapons/vulcan/vulcanloading3",
+    "idle.using.pull2": "minecraft:weapons/vulcan/vulcanloading3"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:crossbow_c1",
+     "icon": "altarsmp.crossbow_c1",
+     "predicate": null,
+     "components": []
+    },
+    {
+     "identifier": "altarsmp:crossbow_c1_arrow",
+     "icon": "altarsmp.crossbow_c1_arrow",
+     "predicate": {
+      "type": "match",
+      "match": {
+       "type": "charge_type",
+       "value": "arrow"
+      }
+     },
+     "components": []
+    },
+    {
+     "identifier": "altarsmp:crossbow_c1_rocket",
+     "icon": "altarsmp.crossbow_c1_rocket",
+     "predicate": {
+      "type": "match",
+      "match": {
+       "type": "charge_type",
+       "value": "rocket"
+      }
+     },
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:crossbow_c1",
+     "geometry": true,
+     "note": "weapon:vulcanscrossbow",
+     "no_textures": null,
+     "unexpressible_states": [
+      "idle.using.pull1",
+      "idle.using.pull2"
+     ]
+    },
+    {
+     "slug_id": "altarsmp:crossbow_c1_arrow",
+     "geometry": true,
+     "note": "arrow-charged visual (crossbow charge_type predicate)",
+     "no_textures": null,
+     "unexpressible_states": null
+    },
+    {
+     "slug_id": "altarsmp:crossbow_c1_rocket",
+     "geometry": true,
+     "note": "rocket-charged visual (crossbow charge_type predicate)",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 3,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:crossbow",
+   "cmd": 2,
+   "java_states": {
+    "idle": "weapons/pale"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:crossbow_c2",
+     "icon": "altarsmp.crossbow_c2",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:crossbow_c2",
+     "geometry": true,
+     "note": "weapon:palecrossbow",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:diamond_spear",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/omen"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:diamond_spear_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 0,
+   "status": "UNMAPPED"
+  },
+  {
+   "java_item": "minecraft:dragon_head",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/dragonheart"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:dragon_head_c1",
+     "icon": "altarsmp.dragon_head_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:dragon_head_c1",
+     "geometry": true,
+     "note": "item:DragonHeart",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:echo_shard",
+   "cmd": 22,
+   "java_states": {
+    "idle": "custom/pale_shard"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:22"
+   ],
+   "missing_refs": [
+    "idle: model minecraft:item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:echo_shard_c22",
+     "icon": "altarsmp.echo_shard_c22",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:echo_shard_c22",
+     "geometry": true,
+     "note": "item:PaleShard",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:feather",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/warden"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:feather_c1",
+     "icon": "altarsmp.feather_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:feather_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:feather",
+   "cmd": 2,
+   "java_states": {
+    "idle": "custom/beam"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:feather_c2",
+     "icon": "altarsmp.feather_c2",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:feather_c2",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:gold_nugget",
+   "cmd": 8,
+   "java_states": {
+    "idle": "custom/hyperion_shard"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:8"
+   ],
+   "missing_refs": [
+    "idle: model item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:gold_nugget_c8",
+     "icon": "altarsmp.gold_nugget_c8",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:gold_nugget_c8",
+     "geometry": true,
+     "note": "item:HyperionShard",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:heavy_core",
+   "cmd": 998,
+   "java_states": {
+    "idle": "block/relic_core"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:998"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:heavy_core_c998",
+     "icon": "altarsmp.heavy_core_c998",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:heavy_core_c998",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:heavy_core",
+   "cmd": 999,
+   "java_states": {
+    "idle": "block/clear"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:999"
+   ],
+   "missing_refs": [
+    "idle: model block/clear not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:heavy_core_c999",
+     "icon": null,
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:heavy_core_c999",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": true,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted-fallback-visual"
+  },
+  {
+   "java_item": "minecraft:iron_nugget",
+   "cmd": 9,
+   "java_states": {
+    "idle": "custom/nightpiercer_shard"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:9"
+   ],
+   "missing_refs": [
+    "idle: model item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:iron_nugget_c9",
+     "icon": "altarsmp.iron_nugget_c9",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:iron_nugget_c9",
+     "geometry": true,
+     "note": "item:NightpiercerShard",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:mace",
+   "cmd": 15,
+   "java_states": {
+    "idle": "weapons/arc5/mace/lv1"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:15"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:mace_c15",
+     "icon": "altarsmp.mace_c15",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:mace_c15",
+     "geometry": true,
+     "note": "weapon:knightfall",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:mace",
+   "cmd": 16,
+   "java_states": {
+    "idle": "weapons/arc5/mace/lv2"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:16"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:mace_c16",
+     "icon": "altarsmp.mace_c16",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:mace_c16",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:mace",
+   "cmd": 17,
+   "java_states": {
+    "idle": "weapons/arc5/mace/lv3"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:17"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:mace_c17",
+     "icon": "altarsmp.mace_c17",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:mace_c17",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_axe",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/frostsideways"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_axe_c1",
+     "icon": "altarsmp.netherite_axe_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_axe_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_axe",
+   "cmd": 2,
+   "java_states": {
+    "idle": "weapons/arc3/axe"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_axe_c2",
+     "icon": "altarsmp.netherite_axe_c2",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_axe_c2",
+     "geometry": true,
+     "note": "weapon:paladinbattleaxe",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_axe",
+   "cmd": 3,
+   "java_states": {
+    "idle": "custom/amaxe"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_axe_c3",
+     "icon": "altarsmp.netherite_axe_c3",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_axe_c3",
+     "geometry": true,
+     "note": "item:AmethystAxe",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_boots",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom:item/copper_boots"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_boots_c1",
+     "icon": "altarsmp.netherite_boots_c1",
+     "predicate": null,
+     "components": [
+      "minecraft:equippable"
+     ]
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_boots_c1",
+     "geometry": true,
+     "note": "armor:copper_boots",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_chestplate",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom:item/copper_chestplate"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_chestplate_c1",
+     "icon": "altarsmp.netherite_chestplate_c1",
+     "predicate": null,
+     "components": [
+      "minecraft:equippable"
+     ]
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_chestplate_c1",
+     "geometry": true,
+     "note": "armor:copper_chestplate",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_helmet",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom:item/copper_helmet"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_helmet_c1",
+     "icon": "altarsmp.netherite_helmet_c1",
+     "predicate": null,
+     "components": [
+      "minecraft:equippable"
+     ]
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_helmet_c1",
+     "geometry": true,
+     "note": "armor:copper_helmet",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_leggings",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom:item/copper_leggings"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_leggings_c1",
+     "icon": "altarsmp.netherite_leggings_c1",
+     "predicate": null,
+     "components": [
+      "minecraft:equippable"
+     ]
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_leggings_c1",
+     "geometry": true,
+     "note": "armor:copper_leggings",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_pickaxe",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/copper_pickaxe"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model minecraft:item/handheld not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_pickaxe_c1",
+     "icon": "altarsmp.netherite_pickaxe_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_pickaxe_c1",
+     "geometry": true,
+     "note": "item:CopperPickaxeII",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_pickaxe",
+   "cmd": 3,
+   "java_states": {
+    "idle": "custom/ampick"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_pickaxe_c3",
+     "icon": "altarsmp.netherite_pickaxe_c3",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_pickaxe_c3",
+     "geometry": true,
+     "note": "item:AmethystPickaxe",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 1,
+   "java_states": {
+    "idle": "weapons/bone_blade"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c1",
+     "icon": "altarsmp.netherite_sword_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c1",
+     "geometry": true,
+     "note": "weapon:boneblade",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 10,
+   "java_states": {
+    "idle": "weapons/arc3/dagger"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:10"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c10",
+     "icon": "altarsmp.netherite_sword_c10",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c10",
+     "geometry": true,
+     "note": "weapon:shadowblade",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 11,
+   "java_states": {
+    "idle": "weapons/arc3/cutlass"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:11"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c11",
+     "icon": "altarsmp.netherite_sword_c11",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c11",
+     "geometry": true,
+     "note": "weapon:cutlass",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 12,
+   "java_states": {
+    "idle": "weapons/arc3/wind"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:12"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c12",
+     "icon": "altarsmp.netherite_sword_c12",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c12",
+     "geometry": true,
+     "note": "weapon:windweaver",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 13,
+   "java_states": {
+    "idle": "weapons/arc5/sculk"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:13"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c13",
+     "icon": "altarsmp.netherite_sword_c13",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c13",
+     "geometry": true,
+     "note": "weapon:echo",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 14,
+   "java_states": {
+    "idle": "weapons/arc5/eclipse"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:14"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c14",
+     "icon": "altarsmp.netherite_sword_c14",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c14",
+     "geometry": true,
+     "note": "weapon:eclipsesword",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 2,
+   "java_states": {
+    "idle": "weapons/illusion_wand",
+    "idle.using": "weapons/illusion_wand_2"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c2",
+     "icon": "altarsmp.netherite_sword_c2",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c2",
+     "geometry": true,
+     "note": "weapon:wandofillusion",
+     "no_textures": null,
+     "unexpressible_states": [
+      "idle.using"
+     ]
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 25,
+   "java_states": {
+    "idle": "custom/ancientblade"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:25"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c25",
+     "icon": "altarsmp.netherite_sword_c25",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c25",
+     "geometry": true,
+     "note": "weapon:ancient_blade",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 26,
+   "java_states": {
+    "idle": "custom/dragonrend"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:26"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c26",
+     "icon": "altarsmp.netherite_sword_c26",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c26",
+     "geometry": true,
+     "note": "weapon:dragonrend",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 27,
+   "java_states": {
+    "idle": "custom/withersym",
+    "idle.ctx_fixed": "custom/hotbarsym",
+    "idle.ctx_ground": "custom/hotbarsym",
+    "idle.ctx_gui": "custom/hotbarsym"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:27"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c27",
+     "icon": "altarsmp.netherite_sword_c27",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c27",
+     "geometry": true,
+     "note": "weapon:wither_symbiote gui=custom/hotbarsym",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 3,
+   "java_states": {
+    "idle": "weapons/bloodlust"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c3",
+     "icon": "altarsmp.netherite_sword_c3",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c3",
+     "geometry": true,
+     "note": "weapon:bloodlust",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 4,
+   "java_states": {
+    "idle": "weapons/frost",
+    "idle.using": "weapons/frost_2"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:4"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c4",
+     "icon": "altarsmp.netherite_sword_c4",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c4",
+     "geometry": true,
+     "note": "weapon:frost_scythe",
+     "no_textures": null,
+     "unexpressible_states": [
+      "idle.using"
+     ]
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 5,
+   "java_states": {
+    "idle": "weapons/vamp"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:5"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c5",
+     "icon": "altarsmp.netherite_sword_c5",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c5",
+     "geometry": true,
+     "note": "weapon:nightpiercer",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 6,
+   "java_states": {
+    "idle": "weapons/hyperion"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:6"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c6",
+     "icon": "altarsmp.netherite_sword_c6",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c6",
+     "geometry": true,
+     "note": "weapon:hyperion",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 7,
+   "java_states": {
+    "idle": "weapons/arc3/pure_blade"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:7"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c7",
+     "icon": "altarsmp.netherite_sword_c7",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c7",
+     "geometry": true,
+     "note": "weapon:pureblade",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 8,
+   "java_states": {
+    "idle": "weapons/arc3/gauntlet"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:8"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c8",
+     "icon": "altarsmp.netherite_sword_c8",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c8",
+     "geometry": true,
+     "note": "weapon:earthgauntlet",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:netherite_sword",
+   "cmd": 9,
+   "java_states": {
+    "idle": "weapons/arc3/witherbone"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:9"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:netherite_sword_c9",
+     "icon": "altarsmp.netherite_sword_c9",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:netherite_sword_c9",
+     "geometry": true,
+     "note": "weapon:witherbone",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:paper",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/light_blue_circle"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model minecraft:item/generated not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:paper_c1",
+     "icon": "altarsmp.paper_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:paper_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:paper",
+   "cmd": 2,
+   "java_states": {
+    "idle": "custom/dragonrend_clock"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:paper_c2",
+     "icon": "altarsmp.paper_c2",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:paper_c2",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:paper",
+   "cmd": 3,
+   "java_states": {
+    "idle": "custom/dragonrend_short_arrow"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:paper_c3",
+     "icon": "altarsmp.paper_c3",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:paper_c3",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:paper",
+   "cmd": 4,
+   "java_states": {
+    "idle": "custom/shadow_blob"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:4"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:paper_c4",
+     "icon": "altarsmp.paper_c4",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:paper_c4",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:paper",
+   "cmd": 5,
+   "java_states": {
+    "idle": "custom/dragonrend_tall_arrow"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:5"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:paper_c5",
+     "icon": "altarsmp.paper_c5",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:paper_c5",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:purple_harness",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/harness"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:purple_harness_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 0,
+   "status": "UNMAPPED"
+  },
+  {
+   "java_item": "minecraft:red_concrete",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/r"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:red_concrete_c1",
+     "icon": "altarsmp.red_concrete_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:red_concrete_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:snowball",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/ic"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model custom/ic not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:snowball_c1",
+     "icon": null,
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:snowball_c1",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": true,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted-fallback-visual"
+  },
+  {
+   "java_item": "minecraft:snowball",
+   "cmd": 2,
+   "java_states": {
+    "idle": "custom/skull"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:2"
+   ],
+   "missing_refs": [
+    "idle: model custom/skull not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:snowball_c2",
+     "icon": null,
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:snowball_c2",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": true,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted-fallback-visual"
+  },
+  {
+   "java_item": "minecraft:snowball",
+   "cmd": 3,
+   "java_states": {
+    "idle": "custom/redblock"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:3"
+   ],
+   "missing_refs": [
+    "idle: model custom/redblock not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:snowball_c3",
+     "icon": null,
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:snowball_c3",
+     "geometry": true,
+     "note": "pack:",
+     "no_textures": true,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted-fallback-visual"
+  },
+  {
+   "java_item": "minecraft:stripped_crimson_hyphae",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/contagion_signal"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [
+    "idle: model block/stairs not found"
+   ],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:stripped_crimson_hyphae_c1",
+     "icon": "altarsmp.stripped_crimson_hyphae_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:stripped_crimson_hyphae_c1",
+     "geometry": true,
+     "note": "weapon:contagionsignal",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  },
+  {
+   "java_item": "minecraft:trident",
+   "cmd": 1,
+   "java_states": {
+    "idle": "custom/tide"
+   },
+   "contexts": [
+    "rp-dispatch",
+    "pack-declared:1"
+   ],
+   "missing_refs": [],
+   "bedrock_defs": [
+    {
+     "identifier": "altarsmp:trident_c1",
+     "icon": "altarsmp.trident_c1",
+     "predicate": null,
+     "components": []
+    }
+   ],
+   "emitted": [
+    {
+     "slug_id": "altarsmp:trident_c1",
+     "geometry": true,
+     "note": "weapon:tidebreaker",
+     "no_textures": null,
+     "unexpressible_states": null
+    }
+   ],
+   "mapping_count": 1,
+   "status": "converted"
+  }
+ ],
+ "unmapped_usage_vanilla_parity": [
+  {
+   "java_item": "amethyst_shard",
+   "cmd": 4,
+   "contexts": [
+    "weapon:nuke_launcher",
+    "altar:season1:Nuke Launcher"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "bow",
+   "cmd": 1,
+   "contexts": [
+    "weapon:striker",
+    "altar:season1:Striker"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "bow",
+   "cmd": null,
+   "contexts": [
+    "weapon:bow_of_deception"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "breeze_rod",
+   "cmd": 1,
+   "contexts": [
+    "item:WeaponHandle",
+    "item:WeaponHandle"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "breeze_rod",
+   "cmd": 100,
+   "contexts": [
+    "altar:season1:Weapon Handle"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "clay_ball",
+   "cmd": 10,
+   "contexts": [
+    "item:VulkanHead",
+    "altar:season1:Vulkan Head"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "clay_ball",
+   "cmd": 15,
+   "contexts": [
+    "item:SoulInABottle"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "clay_ball",
+   "cmd": 18,
+   "contexts": [
+    "altar:season1:Crazy Slots"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "clay_ball",
+   "cmd": 4,
+   "contexts": [
+    "weapon:crazyslots",
+    "weapon:minor_crazy_slots"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "clay_ball",
+   "cmd": 9,
+   "contexts": [
+    "item:WardenHeart",
+    "item:WardenHeart"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "copper_block",
+   "cmd": null,
+   "contexts": [
+    "item:CopperChestplateFragment"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "copper_ingot",
+   "cmd": null,
+   "contexts": [
+    "item:CopperFragment"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "crossbow",
+   "cmd": 1,
+   "contexts": [
+    "weapon:vulcanscrossbow",
+    "altar:season1:Vulcan's Crossbow"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "crossbow",
+   "cmd": 2,
+   "contexts": [
+    "weapon:palecrossbow",
+    "altar:season1:Pale Crossbow"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "diamond_boots",
+   "cmd": null,
+   "contexts": [
+    "armor:copper_diamond_boots"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "diamond_chestplate",
+   "cmd": null,
+   "contexts": [
+    "armor:copper_diamond_chestplate"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "diamond_helmet",
+   "cmd": null,
+   "contexts": [
+    "armor:copper_diamond_helmet"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "diamond_leggings",
+   "cmd": null,
+   "contexts": [
+    "armor:copper_diamond_leggings"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "dragon_head",
+   "cmd": 1,
+   "contexts": [
+    "item:DragonHeart"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "echo_shard",
+   "cmd": 11,
+   "contexts": [
+    "item:WardenHead",
+    "altar:season1:Warden Head"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "echo_shard",
+   "cmd": 22,
+   "contexts": [
+    "item:PaleShard"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "echo_shard",
+   "cmd": 25,
+   "contexts": [
+    "altar:season1:Pale Shard"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "ender_eye",
+   "cmd": 103,
+   "contexts": [
+    "altar:season1:Illusion Core"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "flint",
+   "cmd": 102,
+   "contexts": [
+    "altar:season1:Nightpiercer Shard"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "gold_nugget",
+   "cmd": 101,
+   "contexts": [
+    "altar:season1:Hyperion Shard"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "gold_nugget",
+   "cmd": 8,
+   "contexts": [
+    "item:HyperionShard"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "heavy_core",
+   "cmd": null,
+   "contexts": [
+    "item:IllusionCore"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "iron_nugget",
+   "cmd": 9,
+   "contexts": [
+    "item:NightpiercerShard"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "mace",
+   "cmd": 1,
+   "contexts": [
+    "weapon:omen",
+    "altar:season2:Omen"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "mace",
+   "cmd": 15,
+   "contexts": [
+    "weapon:knightfall",
+    "altar:season1:Knightfall"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "nautilus_shell",
+   "cmd": null,
+   "contexts": [
+    "item:FragmentOfTheSea"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "nether_star",
+   "cmd": 20,
+   "contexts": [
+    "item:WitherHeart"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_axe",
+   "cmd": 2,
+   "contexts": [
+    "weapon:paladinbattleaxe"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_axe",
+   "cmd": 3,
+   "contexts": [
+    "item:AmethystAxe",
+    "altar:season1:Paladin's Battle Axe"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_boots",
+   "cmd": 1,
+   "contexts": [
+    "armor:copper_boots"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_chestplate",
+   "cmd": 1,
+   "contexts": [
+    "armor:copper_chestplate"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_helmet",
+   "cmd": 1,
+   "contexts": [
+    "armor:copper_helmet"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_leggings",
+   "cmd": 1,
+   "contexts": [
+    "armor:copper_leggings"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_pickaxe",
+   "cmd": 0,
+   "contexts": [
+    "altar:season1:Copper Pickaxe Upgrade"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_pickaxe",
+   "cmd": 1,
+   "contexts": [
+    "item:CopperPickaxeII",
+    "altar:season1:Copper Pickaxe"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_pickaxe",
+   "cmd": 3,
+   "contexts": [
+    "item:AmethystPickaxe"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 0,
+   "contexts": [
+    "weapon:fire_slash",
+    "altar:season1:Fire Slash"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 1,
+   "contexts": [
+    "weapon:boneblade",
+    "altar:season1:Bone Blade",
+    "altar:season1:Windweaver",
+    "altar:season1:Withered Blade"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 10,
+   "contexts": [
+    "weapon:shadowblade",
+    "altar:season1:Copper Chestplate",
+    "altar:season1:Copper Helmet",
+    "altar:season1:Shadow Blade"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 11,
+   "contexts": [
+    "weapon:cutlass"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 12,
+   "contexts": [
+    "weapon:windweaver",
+    "altar:season1:Cutlass"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 13,
+   "contexts": [
+    "weapon:echo",
+    "altar:season1:Echo"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 14,
+   "contexts": [
+    "weapon:eclipsesword",
+    "altar:season1:Eclipse"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 2,
+   "contexts": [
+    "weapon:wandofillusion",
+    "altar:season1:Wand of Illusion"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 25,
+   "contexts": [
+    "weapon:ancient_blade",
+    "altar:season2:Ancient Blade"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 26,
+   "contexts": [
+    "weapon:dragonrend",
+    "altar:season2:Dragonrend"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 27,
+   "contexts": [
+    "weapon:wither_symbiote"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 3,
+   "contexts": [
+    "weapon:bloodlust",
+    "altar:season1:Bloodlust"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 4,
+   "contexts": [
+    "weapon:frost_scythe",
+    "altar:season1:Frost Scythe"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 5,
+   "contexts": [
+    "weapon:nightpiercer",
+    "altar:season1:Nightpiercer"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 6,
+   "contexts": [
+    "weapon:hyperion",
+    "altar:season1:Hyperion"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 7,
+   "contexts": [
+    "weapon:pureblade",
+    "altar:season1:Pure Blade"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 8,
+   "contexts": [
+    "weapon:earthgauntlet",
+    "altar:season1:Earth Gauntlet"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "netherite_sword",
+   "cmd": 9,
+   "contexts": [
+    "weapon:witherbone"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "paper",
+   "cmd": 1,
+   "contexts": [
+    "blue-circle hologram \u2014 command/CommandRegistrar.java:1770 (BLUE_CIRCLE_MODEL=1)"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "paper",
+   "cmd": 2,
+   "contexts": [
+    "dragonrend clock void clock \u2014 weapon/s2/DragonrendWeapon.java voidClockPiece(2)"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "paper",
+   "cmd": 3,
+   "contexts": [
+    "dragonrend short arrow \u2014 weapon/s2/DragonrendWeapon.java voidClockPiece(3)"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "paper",
+   "cmd": 4,
+   "contexts": [
+    "altar:season2:Wither Symbiote"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "paper",
+   "cmd": 5,
+   "contexts": [
+    "dragonrend tall arrow \u2014 weapon/s2/DragonrendWeapon.java voidClockPiece(5)"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "recovery_compass",
+   "cmd": 2000,
+   "contexts": [
+    "item:PlayerTrackerItem",
+    "altar:season1:Player Tracker"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "saddle",
+   "cmd": 1,
+   "contexts": [
+    "item:BlackGhastSaddle"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "stripped_crimson_hyphae",
+   "cmd": 1,
+   "contexts": [
+    "weapon:contagionsignal"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "totem_of_undying",
+   "cmd": 1026,
+   "contexts": [
+    "altar:season1:Contagion Signal"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  },
+  {
+   "java_item": "trident",
+   "cmd": 1,
+   "contexts": [
+    "weapon:tidebreaker",
+    "altar:season2:Tidebreaker",
+    "tidebreaker rising-tide water trident \u2014 weapon/s2/TidebreakerWeapon.java:214"
+   ],
+   "resolution": "vanilla look both sides (no RP dispatch); Geyser translates normally"
+  }
+ ],
+ "warnings": [
+  "minecraft:clay_ball|1::clay_ball_c1: model block/heavy_core has no textures available in the pack (icon falls back to base-item look)",
+  "minecraft:clay_ball|2::clay_ball_c2: model item/breeze_rod has no textures available in the pack (icon falls back to base-item look)",
+  "minecraft:heavy_core|999::heavy_core_c999: model block/clear has no textures available in the pack (icon falls back to base-item look)",
+  "minecraft:snowball|1::snowball_c1: model custom/ic has no textures available in the pack (icon falls back to base-item look)",
+  "minecraft:snowball|2::snowball_c2: model custom/skull has no textures available in the pack (icon falls back to base-item look)",
+  "minecraft:snowball|3::snowball_c3: model custom/redblock has no textures available in the pack (icon falls back to base-item look)",
+  "sound event minecraft:hv_dig.bomb_shoot has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.connect has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.dust has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.explosion has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.ground_crackle has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.hurt has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.leg_attack has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.rotation_crackle has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.rotation_metal has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.step has no ogg in either reference pack (silent on both sides)",
+  "sound event minecraft:hv_dig.whoosh has no ogg in either reference pack (silent on both sides)"
+ ]
+}

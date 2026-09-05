@@ -1,0 +1,154 @@
+ALTARSMMP 2.0.5 <-> BEDROCK DELIVERABLE - DIFFERENCES AND DEGRADATIONS
+========================================================================
+Complete, honest list. "Java" = what a Java client sees with the original
+AltarSMP resource pack. Nothing here was hidden or auto-substituted with
+placeholder art: every shipped texture/model is the pack's own artwork, and
+every case where Bedrock cannot mirror it is enumerated below.
+
+1. Geyser custom-items v2 mechanical limits (mapping-level)
+------------------------------------------------------------
+1.1 using_item state models cannot be predicated.
+    Geyser v2 predicates support: broken / damaged / custom_model_data /
+    has_component / fishing_rod_cast / charge_type / trim / dimension /
+    damage|count|bundle ranges. There is no "player is using item" predicate.
+    Affected variants (idle visual ships; the Java mid-use swap does not
+    replicate on Bedrock):
+      - netherite_sword|2  Illusion Wand  (using -> weapons/illusion_wand_2)
+      - netherite_sword|4  Frost scythe   (using -> weapons/arc5/frost_2)
+      - crossbow|1/2 pull frames while drawing (see 1.2 for the loaded part)
+      - mace|15/16/17 use states (Knightfall press): the pack itself gives
+        these variants a single static model - no Java swap either. No-op.
+1.2 Crossbow charge/loaded states ARE replicated: two extra definitions with
+    match:charge_type (arrow / rocket) per crossbow variant, pointing at the
+    same loading models Java dispatches to while pulling (weapons/vulcan/
+    vulcanloading3 for Vulcan's Crossbow). The only loss is the frames
+    *during* draw before the projectile is noched.
+1.3 display_context-dependent models collapse to one geometry.
+    wither sym netherite_sword|27: Java shows item/hotbarsym in GUI/hotbar/
+    ground and item/withersym in hand/display/head. Bedrock: hotbar icon =
+    hotbarsym artwork, held/display geometry = withersym. Both artwork
+    pieces are shipped; only the simultaneous per-context split is
+    impossible on one bedrock item.
+1.4 Item icons for 3D models are the model's dominant texture tile (flat),
+    not a raster of the rotated GUI pose. Same approach as the official
+    Geyser pack generator (Rainbow); no fabricated pre-rendered art. The
+    3D model is what players see in-hand/on-display/armor-stand.
+1.5 Resource-pack tooltips (content "tooltip_style" -> custom tooltip
+    textures) have no Bedrock equivalent; item names/lore render from the
+    server-side components Geyser translates (identical text, no tooltip
+    artwork). Java-only feature.
+
+2. Reference-pack breaks mirrored, not fixed with placeholders
+----------------------------------------------------------------
+2.1 clay_ball|1 -> model block/heavy_core and clay_ball|2 -> item/breeze_rod
+    resolve ONLY from the vanilla jar (models+textures are not inside the
+    AltarSMP pack). Bedrock maps the CMD to a definition without custom
+    geometry (vanilla clay ball look); Java shows the vanilla heavy_core /
+    breeze_rod model. Cannot be fixed without shipping ripped vanilla art.
+2.2 snowball|1..3 dispatch to custom/ic, custom/skull, custom/redblock:
+    those model files are absent from AltarSMP-ResourcePack.zip itself
+    (broken in the original pack; Java shows missing-model fallback).
+    Mappings keep the three CMDs registered with no custom visual; see
+    validation/missing-assets.txt.
+2.3 heavy_core|999 -> block/clear is an "invisible marker": shipped as a
+    zero-size-cube geometry so the bedrock item is invisible exactly like
+    the Java marker; heavy_core|998 -> relic_core model not in pack,
+    fallback look only.
+2.4 netherite_sword|13 weapons/arc5/sculk uses texture item/scuk which IS
+    in the pack - converted normally (the earlier 'missing' scare is a
+    pack typo handled by the resolver).
+2.5 Sound events without oggs in ANY reference file (hv_dig.* x11,
+    bloodlust.dive/resurface) - silent on both sides already; listed in
+    missing-assets.txt. The 9 shipped oggs (5 mythicweapons, 2 altarsmps2,
+    2 nuke) all converted; 11 sound keys registered incl. the "minecraft.*"
+    alias so the alarm plays regardless of which translation path Geyser
+    uses.
+
+3. Current-impl regressions vs the ORIGINAL (S1/S2) gameplay
+--------------------------------------------------------------
+The deliverable converts 2.0.5 as it behaves today; each row is the
+original->current delta, what bedrock inherits, and a proposed patch in
+documentation/MOD-PATCHES/ (all Java-safe; none applied to your jar):
+  3.1 CopperPickaxe: original NETHERITE_PICKAXE eff5/fortune3/unbreak10/
+      mending + 3x3 vein mining -> current STONE pickaxe, null CMD, no vein.
+      Bedrock mirrors current (stone look via no-CMD = vanilla). Patch P1.
+  3.2 FireSlash (CrazySlots era) clay_ball|12/13 fire displays dropped in
+      2.0.5 (those CMDs now fall through to pale_logs|11 branch quirk).
+      No bedrock entry for 12/13 (nothing emits them). Patch P4 restores
+      parity with the original if desired; the pack already carries the
+      two fire display models so no extra conversion was needed.
+  3.3 Paladin: original clay_ball|8 shrapnel displays -> current
+      golden_sword/shield block displays. Both current displays mapped in
+      GeyserDisplayEntity yml (vanilla passthrough), so bedrock matches the
+      CURRENT Java exactly; original-era look optional (patch P5).
+  3.4 Omen: original base DIAMOND_SPEAR (nonexistent material -> MACE
+      fallback) vs current MACE cmd1 -> identical vanilla mace look on
+      both sides; nothing lost. Documented because the pack ships a dead
+      items/diamond_spear.json (no such java item) - assets converted,
+      mapping intentionally omitted (purple_harness.json likewise).
+  3.5 Bow of Deception (bow cmd None / no CMD): vanilla bow both sides;
+      no bedrock delta.
+  3.6 PlayerTrackerItem recovery_compass|2000: no pack branch exists at
+      CMD 2000 -> vanilla compass both sides (the 2000 sentinel never had
+      an item-model entry).
+  3.7 MythicWeapons orphans: 580 item model definitions in the 2.0.5 jar
+      pack; only 34 belong to items the current content registry emits. The
+      other 546 are leftovers from S1 MW configs (no server item can carry
+      their CMD in 2.0.5) - NOT mapped (they would shadow nothing but add
+      546 dead bedrock items). Full variant list in
+      docs/catalog/custom-items.json item_model_definitions.
+
+4. GeyserDisplayEntity (display entities -> bedrock) specifics
+----------------------------------------------------------------
+4.1 The extension renders Java item displays by equipping the translated
+    bedrock item on a hidden armor stand. Our attachables therefore ship
+    animations for main/off hand, head and armor-chest (display) slots -
+    a display shows the model with the model's own 'fixed'/'ground' Java
+    display transform baked in. Exact display-entity rotation/scale from
+    the server-side transform is NOT synced by the extension (fixed -0.5
+    y-offset + stand height knobs in config.yml); altar floaters look
+    right but per-display server-set rotation is approximated.
+    Concretely affected: displays whose Transformation the mod sets at spawn
+    (e.g. the original FireSlash 1.5x/0.2x flattened fire cards, see
+    MOD-PATCHES/P3) - non-default server transforms do not scale through.
+4.2 hide-types shipped WITHOUT "bone" (BoneBlade spawns bone displays on
+    this server) and hide-unmapped-vanilla-displays=false (nothing vanishes;
+    unmapped displays show the base item).
+4.3 The extension JAR itself is not redistributable from this sandbox
+    (release hosts unreachable during packaging) - source snapshot +
+    gradle build instructions ship in extensions/GeyserDisplayEntity/;
+    prebuilt mcpack for its visuals ships in packs/.
+4.4 Behavior of the extension could not be live-tested here (no server);
+    every claim in this package about it is "verified by source + config
+    reading". Validator PASSes are static-reference verification.
+
+5. Server/client runtime caveats
+----------------------------------
+5.1 enable-custom-content requires recent Geyser(-Fabric) 2.x builds; with
+    older builds the mapping files are ignored and bedrock players simply
+    see vanilla item looks (no crash).
+5.2 Custom item identifiers are all `geyser_custom:altarsmp.*` post-prefix;
+    they occupy the altarsmp namespace only - no vanilla item is replaced.
+5.3 Floodgate players: everything above applies identically to them
+    (they ARE bedrock clients); Java players are untouched (pack optional
+    visuals unchanged, no mod files modified).
+5.4 This environment could not run `./gradlew clean build`, start a server,
+    or do a live Java<->Bedrock session (no JDK/network). Packaging claims
+    are backed by: programmatic catalog (72/72 variants), the automated
+    validator (all references resolve), and asset-level diffing of the
+    five reference files. "As close as technically possible", not 100%.
+
+6. What was NOT degraded
+--------------------------
+- All 69 distinct pack textures used by required variants are shipped
+  byte-copied (no recolors, no re-encodes); 13 animated textures keep
+  frame data via flipbook tiles.
+- All 56 custom 3D geometries converted from the Java element lists with
+  vanilla uv/scale/rotation math (Rainbow formulas), incl. rotation pivots
+  and multi-texture stitched atlases where a model had >1 texture.
+- All 40 altar entries + VFX display usage mapped for the extension.
+- Every ability routing (main/offhand/crouch+offhand) is server-side in the
+  mod and works for bedrock players already; nothing needed porting and
+  nothing was touched. Same for entity-safety: no display->display
+  recursion introduced (extension replaces displays, it does not spawn
+  java items client-side).

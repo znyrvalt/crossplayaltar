@@ -1,0 +1,11 @@
+general:
+  height: 1.7
+  y-offset: -0.5
+  vanilla-scale: false
+  vanilla-scale-multiplier: 1.0
+  hand: false
+hide-types: ["leather_horse_armor"]
+hide-custom-types:
+hide-unmapped-vanilla-displays: false
+settings:
+  debug: false

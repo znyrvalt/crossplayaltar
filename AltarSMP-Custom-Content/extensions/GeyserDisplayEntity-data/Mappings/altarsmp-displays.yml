@@ -1,0 +1,93 @@
+# AltarSMP display-entity mappings for GeyserDisplayEntity
+# generated from the Fabric 2.0.5 source usage map + catalog; do not hand-edit
+mappings:
+  vanilla_bone:
+    type: "minecraft:bone"
+    item-identifier: "minecraft:bone"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_bone_block:
+    type: "minecraft:bone_block"
+    item-identifier: "minecraft:bone_block"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_golden_sword:
+    type: "minecraft:golden_sword"
+    item-identifier: "minecraft:golden_sword"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_shield:
+    type: "minecraft:shield"
+    item-identifier: "minecraft:shield"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_glowstone:
+    type: "minecraft:glowstone"
+    item-identifier: "minecraft:glowstone"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_ice:
+    type: "minecraft:ice"
+    item-identifier: "minecraft:ice"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_nether_star:
+    type: "minecraft:nether_star"
+    item-identifier: "minecraft:nether_star"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_carved_pumpkin:
+    type: "minecraft:carved_pumpkin"
+    item-identifier: "minecraft:carved_pumpkin"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_splash_potion:
+    type: "minecraft:splash_potion"
+    item-identifier: "minecraft:splash_potion"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vanilla_netherite_sword:
+    type: "minecraft:netherite_sword"
+    item-identifier: "minecraft:netherite_sword"
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vfx_paper_1:
+    type: "minecraft:paper"
+    model-data: 1
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vfx_paper_2:
+    type: "minecraft:paper"
+    model-data: 2
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vfx_paper_3:
+    type: "minecraft:paper"
+    model-data: 3
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vfx_paper_5:
+    type: "minecraft:paper"
+    model-data: 5
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false
+  vfx_trident_1:
+    type: "minecraft:trident"
+    model-data: 1
+    displayentityoptions:
+      y-offset: -0.5
+      hand: false

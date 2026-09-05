@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_netherite_sword_c27.hold_first_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -4.5,
+      6.5,
+      8.25
+     ],
+     "rotation": [
+      -176.88,
+      23.23,
+      -19.43
+     ],
+     "scale": [
+      1.43125,
+      1.52109,
+      1.4
+     ]
+    }
+   }
+  }
+ }
+}

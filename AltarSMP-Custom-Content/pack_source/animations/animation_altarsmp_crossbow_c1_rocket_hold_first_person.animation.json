@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_crossbow_c1_rocket.hold_first_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -4.95,
+      12.13,
+      1.13
+     ],
+     "rotation": [
+      -79.82,
+      -177.25,
+      -169.88
+     ],
+     "scale": [
+      0.68,
+      0.68,
+      0.68
+     ]
+    }
+   }
+  }
+ }
+}

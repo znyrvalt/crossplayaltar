@@ -1,0 +1,16 @@
+{
+ "format_version": "1.8.0",
+ "render_controllers": {
+  "controller.render.altarsmp.altarsmp.netherite_sword_c11": {
+   "geometry": "Geometry.default",
+   "materials": [
+    {
+     "*": "variable.is_enchanted ? Material.enchanted : Material.default"
+    }
+   ],
+   "textures": [
+    "Texture.default"
+   ]
+  }
+ }
+}

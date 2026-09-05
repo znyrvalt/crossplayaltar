@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_diamond_spear_c1.head": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.0,
+      30.6438,
+      0.0
+     ],
+     "rotation": [
+      92.0,
+      -0.0,
+      0.0
+     ],
+     "scale": [
+      0.655,
+      0.655,
+      0.655
+     ]
+    }
+   }
+  }
+ }
+}

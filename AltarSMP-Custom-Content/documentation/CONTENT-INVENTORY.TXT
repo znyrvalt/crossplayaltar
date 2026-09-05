@@ -1,0 +1,203 @@
+ALTARSMMP 2.0.5 BEDROCK CONTENT INVENTORY  (generated 2026-09-05)
+======================================================================
+
+WEAPONS (30)  - content registry, base material + CMD + bedrock id
+----------------------------------------------------------------------
+  bloodlust                  netherite_sword    cmd=3     -> altarsmp:netherite_sword_c3
+  boneblade                  netherite_sword    cmd=1     -> altarsmp:netherite_sword_c1
+  contagionsignal            stripped_crimson_hyphae cmd=1     -> altarsmp:stripped_crimson_hyphae_c1
+  crazyslots                 clay_ball          cmd=4     -> altarsmp:clay_ball_c4
+  cutlass                    netherite_sword    cmd=11    -> altarsmp:netherite_sword_c11
+  earthgauntlet              netherite_sword    cmd=8     -> altarsmp:netherite_sword_c8
+  echo                       netherite_sword    cmd=13    -> altarsmp:netherite_sword_c13
+  eclipsesword               netherite_sword    cmd=14    -> altarsmp:netherite_sword_c14
+  fire_slash                 netherite_sword    cmd=0     -> (vanilla look)
+  frost_scythe               netherite_sword    cmd=4     -> altarsmp:netherite_sword_c4
+  hyperion                   netherite_sword    cmd=6     -> altarsmp:netherite_sword_c6
+  knightfall                 mace               cmd=15    -> altarsmp:mace_c15
+  minor_crazy_slots          clay_ball          cmd=4     -> altarsmp:clay_ball_c4
+  nightpiercer               netherite_sword    cmd=5     -> altarsmp:netherite_sword_c5
+  nuke_launcher              amethyst_shard     cmd=4     -> altarsmp:amethyst_shard_c4
+  paladinbattleaxe           netherite_axe      cmd=2     -> altarsmp:netherite_axe_c2
+  palecrossbow               crossbow           cmd=2     -> altarsmp:crossbow_c2
+  pureblade                  netherite_sword    cmd=7     -> altarsmp:netherite_sword_c7
+  shadowblade                netherite_sword    cmd=10    -> altarsmp:netherite_sword_c10
+  striker                    bow                cmd=1     -> altarsmp:bow_c1
+  vulcanscrossbow            crossbow           cmd=1     -> altarsmp:crossbow_c1
+  wandofillusion             netherite_sword    cmd=2     -> altarsmp:netherite_sword_c2
+  windweaver                 netherite_sword    cmd=12    -> altarsmp:netherite_sword_c12
+  witherbone                 netherite_sword    cmd=9     -> altarsmp:netherite_sword_c9
+  ancient_blade              netherite_sword    cmd=25    -> altarsmp:netherite_sword_c25
+  dragonrend                 netherite_sword    cmd=26    -> altarsmp:netherite_sword_c26
+  omen                       mace               cmd=1     -> (vanilla look)
+  tidebreaker                trident            cmd=1     -> altarsmp:trident_c1
+  wither_symbiote            netherite_sword    cmd=27    -> altarsmp:netherite_sword_c27
+  bow_of_deception           bow                cmd=None  -> (vanilla look)
+
+ITEMS (22)
+----------------------------------------------------------------------
+  CopperChestplateFragment   copper_block       cmd=None  -> (vanilla look)
+  CopperFragment             copper_ingot       cmd=None  -> (vanilla look)
+  CopperPickaxe              ?                  cmd=None  -> (vanilla look)
+  CopperPickaxeII            netherite_pickaxe  cmd=1     -> altarsmp:netherite_pickaxe_c1
+  HyperionShard              gold_nugget        cmd=8     -> altarsmp:gold_nugget_c8
+  IllusionCore               heavy_core         cmd=None  -> (vanilla look)
+  NightpiercerShard          iron_nugget        cmd=9     -> altarsmp:iron_nugget_c9
+  PaleShard                  echo_shard         cmd=22    -> altarsmp:echo_shard_c22
+  PlayerTrackerItem          recovery_compass   cmd=2000  -> (vanilla look)
+  VulkanHead                 clay_ball          cmd=10    -> altarsmp:clay_ball_c10
+  WardenHead                 echo_shard         cmd=11    -> (vanilla look)
+  WardenHeart                clay_ball          cmd=9     -> altarsmp:clay_ball_c9
+  WeaponHandle               breeze_rod         cmd=1     -> altarsmp:breeze_rod_c1
+  WitherHeart                nether_star        cmd=20    -> (vanilla look)
+  AmethystAxe                netherite_axe      cmd=3     -> altarsmp:netherite_axe_c3
+  AmethystPickaxe            netherite_pickaxe  cmd=3     -> altarsmp:netherite_pickaxe_c3
+  BlackGhastSaddle           saddle             cmd=1     -> (vanilla look)
+  DragonHeart                dragon_head        cmd=1     -> altarsmp:dragon_head_c1
+  FragmentOfTheSea           nautilus_shell     cmd=None  -> (vanilla look)
+  SoulInABottle              clay_ball          cmd=15    -> altarsmp:clay_ball_c15
+  WardenHeart                clay_ball          cmd=9     -> altarsmp:clay_ball_c9
+  WeaponHandle               breeze_rod         cmd=1     -> altarsmp:breeze_rod_c1
+
+ARMOR (8)
+----------------------------------------------------------------------
+  copper_boots               netherite_boots    cmd=1     -> altarsmp:netherite_boots_c1 custom:copper
+  copper_chestplate          netherite_chestplate cmd=1     -> altarsmp:netherite_chestplate_c1 custom:copper
+  copper_diamond_helmet      diamond_helmet     cmd=None  -> (vanilla look) custom:copper
+  copper_diamond_chestplate  diamond_chestplate cmd=None  -> (vanilla look) custom:copper
+  copper_diamond_leggings    diamond_leggings   cmd=None  -> (vanilla look) custom:copper
+  copper_diamond_boots       diamond_boots      cmd=None  -> (vanilla look) custom:copper
+  copper_helmet              netherite_helmet   cmd=1     -> altarsmp:netherite_helmet_c1 custom:copper
+  copper_leggings            netherite_leggings cmd=1     -> altarsmp:netherite_leggings_c1 custom:copper
+
+ALTAR ENTRIES (40 season1+2)
+----------------------------------------------------------------------
+  [season1] Bloodlust                    netherite_sword    cmd=3     -> altarsmp:netherite_sword_c3
+  [season1] Bone Blade                   netherite_sword    cmd=1     -> altarsmp:netherite_sword_c1
+  [season1] Contagion Signal             totem_of_undying   cmd=1026  -> vanilla
+  [season1] Copper Chestplate            netherite_sword    cmd=10    -> altarsmp:netherite_sword_c10
+  [season1] Copper Helmet                netherite_sword    cmd=10    -> altarsmp:netherite_sword_c10
+  [season1] Copper Pickaxe               netherite_pickaxe  cmd=1     -> altarsmp:netherite_pickaxe_c1
+  [season1] Copper Pickaxe Upgrade       netherite_pickaxe  cmd=0     -> vanilla
+  [season1] Crazy Slots                  clay_ball          cmd=18    -> vanilla
+  [season1] Cutlass                      netherite_sword    cmd=12    -> altarsmp:netherite_sword_c12
+  [season1] Earth Gauntlet               netherite_sword    cmd=8     -> altarsmp:netherite_sword_c8
+  [season1] Echo                         netherite_sword    cmd=13    -> altarsmp:netherite_sword_c13
+  [season1] Eclipse                      netherite_sword    cmd=14    -> altarsmp:netherite_sword_c14
+  [season1] Fire Slash                   netherite_sword    cmd=0     -> vanilla
+  [season1] Frost Scythe                 netherite_sword    cmd=4     -> altarsmp:netherite_sword_c4
+  [season1] Hyperion                     netherite_sword    cmd=6     -> altarsmp:netherite_sword_c6
+  [season1] Hyperion Shard               gold_nugget        cmd=101   -> vanilla
+  [season1] Illusion Core                ender_eye          cmd=103   -> vanilla
+  [season1] Knightfall                   mace               cmd=15    -> altarsmp:mace_c15
+  [season1] Nightpiercer                 netherite_sword    cmd=5     -> altarsmp:netherite_sword_c5
+  [season1] Nightpiercer Shard           flint              cmd=102   -> vanilla
+  [season1] Nuke Launcher                amethyst_shard     cmd=4     -> altarsmp:amethyst_shard_c4
+  [season1] Paladin's Battle Axe         netherite_axe      cmd=3     -> altarsmp:netherite_axe_c3
+  [season1] Pale Crossbow                crossbow           cmd=2     -> altarsmp:crossbow_c2
+  [season1] Player Tracker               recovery_compass   cmd=2000  -> vanilla
+  [season1] Pure Blade                   netherite_sword    cmd=7     -> altarsmp:netherite_sword_c7
+  [season1] Shadow Blade                 netherite_sword    cmd=10    -> altarsmp:netherite_sword_c10
+  [season1] Striker                      bow                cmd=1     -> altarsmp:bow_c1
+  [season1] Vulcan's Crossbow            crossbow           cmd=1     -> altarsmp:crossbow_c1
+  [season1] Vulkan Head                  clay_ball          cmd=10    -> altarsmp:clay_ball_c10
+  [season1] Wand of Illusion             netherite_sword    cmd=2     -> altarsmp:netherite_sword_c2
+  [season1] Warden Head                  echo_shard         cmd=11    -> vanilla
+  [season1] Weapon Handle                breeze_rod         cmd=100   -> vanilla
+  [season1] Windweaver                   netherite_sword    cmd=1     -> altarsmp:netherite_sword_c1
+  [season1] Withered Blade               netherite_sword    cmd=1     -> altarsmp:netherite_sword_c1
+  [season1] Pale Shard                   echo_shard         cmd=25    -> vanilla
+  [season2] Omen                         mace               cmd=1     -> vanilla
+  [season2] Ancient Blade                netherite_sword    cmd=25    -> altarsmp:netherite_sword_c25
+  [season2] Wither Symbiote              netherite_sword    cmd=27    -> altarsmp:netherite_sword_c27
+  [season2] Tidebreaker                  trident            cmd=1     -> altarsmp:trident_c1
+  [season2] Dragonrend                   netherite_sword    cmd=26    -> altarsmp:netherite_sword_c26
+
+PACK VARIANTS CONVERTED (72 java item|CMD variants -> 72 bedrock defs)
+----------------------------------------------------------------------
+  amethyst_shard                   cmd 1    states=1  -> NONE
+  amethyst_shard                   cmd 2    states=1  -> NONE
+  amethyst_shard                   cmd 3    states=1  -> NONE
+  amethyst_shard                   cmd 4    states=1  -> NONE
+  amethyst_shard                   cmd 5    states=1  -> NONE
+  amethyst_shard                   cmd 6    states=1  -> NONE
+  bow                              cmd 1    states=1  -> NONE
+  breeze_rod                       cmd 1    states=1  -> NONE
+  clay_ball                        cmd 1    states=1  -> NONE
+  clay_ball                        cmd 10   states=1  -> NONE
+  clay_ball                        cmd 11   states=1  -> NONE
+  clay_ball                        cmd 15   states=1  -> NONE
+  clay_ball                        cmd 2    states=1  -> NONE
+  clay_ball                        cmd 3    states=1  -> NONE
+  clay_ball                        cmd 4    states=1  -> NONE
+  clay_ball                        cmd 5    states=1  -> NONE
+  clay_ball                        cmd 6    states=1  -> NONE
+  clay_ball                        cmd 7    states=1  -> NONE
+  clay_ball                        cmd 8    states=1  -> NONE
+  clay_ball                        cmd 9    states=1  -> NONE
+  crossbow                         cmd 1    states=6  -> NONE
+  crossbow                         cmd 2    states=1  -> NONE
+  diamond_spear                    cmd 1    states=1  -> NONE
+  dragon_head                      cmd 1    states=1  -> NONE
+  echo_shard                       cmd 22   states=1  -> NONE
+  feather                          cmd 1    states=1  -> NONE
+  feather                          cmd 2    states=1  -> NONE
+  gold_nugget                      cmd 8    states=1  -> NONE
+  heavy_core                       cmd 998  states=1  -> NONE
+  heavy_core                       cmd 999  states=1  -> NONE
+  iron_nugget                      cmd 9    states=1  -> NONE
+  mace                             cmd 15   states=1  -> NONE
+  mace                             cmd 16   states=1  -> NONE
+  mace                             cmd 17   states=1  -> NONE
+  netherite_axe                    cmd 1    states=1  -> NONE
+  netherite_axe                    cmd 2    states=1  -> NONE
+  netherite_axe                    cmd 3    states=1  -> NONE
+  netherite_boots                  cmd 1    states=1  -> NONE
+  netherite_chestplate             cmd 1    states=1  -> NONE
+  netherite_helmet                 cmd 1    states=1  -> NONE
+  netherite_leggings               cmd 1    states=1  -> NONE
+  netherite_pickaxe                cmd 1    states=1  -> NONE
+  netherite_pickaxe                cmd 3    states=1  -> NONE
+  netherite_sword                  cmd 1    states=1  -> NONE
+  netherite_sword                  cmd 10   states=1  -> NONE
+  netherite_sword                  cmd 11   states=1  -> NONE
+  netherite_sword                  cmd 12   states=1  -> NONE
+  netherite_sword                  cmd 13   states=1  -> NONE
+  netherite_sword                  cmd 14   states=1  -> NONE
+  netherite_sword                  cmd 2    states=2  -> NONE
+  netherite_sword                  cmd 25   states=1  -> NONE
+  netherite_sword                  cmd 26   states=1  -> altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26, altarsmp:netherite_sword_c26
+  netherite_sword                  cmd 27   states=4  -> NONE
+  netherite_sword                  cmd 3    states=1  -> NONE
+  netherite_sword                  cmd 4    states=2  -> NONE
+  netherite_sword                  cmd 5    states=1  -> NONE
+  netherite_sword                  cmd 6    states=1  -> NONE
+  netherite_sword                  cmd 7    states=1  -> NONE
+  netherite_sword                  cmd 8    states=1  -> NONE
+  netherite_sword                  cmd 9    states=1  -> NONE
+  paper                            cmd 1    states=1  -> NONE
+  paper                            cmd 2    states=1  -> NONE
+  paper                            cmd 3    states=1  -> NONE
+  paper                            cmd 4    states=1  -> NONE
+  paper                            cmd 5    states=1  -> NONE
+  purple_harness                   cmd 1    states=1  -> NONE
+  red_concrete                     cmd 1    states=1  -> NONE
+  snowball                         cmd 1    states=1  -> NONE
+  snowball                         cmd 2    states=1  -> NONE
+  snowball                         cmd 3    states=1  -> NONE
+  stripped_crimson_hyphae          cmd 1    states=1  -> NONE
+  trident                          cmd 1    states=1  -> NONE
+
+COUNTS SUMMARY
+  java items with custom CMD branches ......... 26
+  required (item,CMD) variants .............. 72 (all mapped: 70 defs + 2 intentionally-unmapped fake-item defs)
+  bedrock definitions emitted ............... 72 (incl 2 crossbow charge-predicate variants)
+  unique bedrock identifiers ................ 72
+  geometries / attachables / RCs / anims .... 56 / 68 / 60 / 280
+  source textures copied (deduped) ........... 145 pngs shipped (69 source + stitched atlases + icons + clear1x1 + armor layers)
+  animated flipbook tiles ................... 13
+  sound events / ogg files ................. 11 / 9
+  GeyserDisplayEntity display entries ........ 15 (5 custom-CMD + 10 vanilla passthrough)
+  java item model definitions audited ........ 580 (34 with mod-side usage; 546 MythicWeapons orphans, intentionally unmapped)
+  particles .................................. 0 custom (all VFX vanilla types)
+  custom blocks / skulls / waypoint styles ... 0 / 0 / 0 (none exist in 2.0.5 content; empty valid mapping files ship)

@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_amethyst_shard_c2.hold_third_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.0,
+      15.25,
+      -5.5
+     ],
+     "rotation": [
+      90.0,
+      -25.54,
+      87.73
+     ],
+     "scale": [
+      0.69336,
+      0.68164,
+      1.0
+     ]
+    }
+   }
+  }
+ }
+}

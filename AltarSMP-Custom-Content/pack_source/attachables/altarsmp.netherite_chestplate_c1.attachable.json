@@ -1,0 +1,28 @@
+{
+ "format_version": "1.21.30",
+ "minecraft:attachable": {
+  "description": {
+   "identifier": "altarsmp:netherite_chestplate_c1",
+   "materials": {
+    "default": "armor",
+    "enchanted": "armor_glint"
+   },
+   "textures": {
+    "default": "textures/models/armor/copper_layer_1"
+   },
+   "geometry": {
+    "default": "geometry.player.armor.chest"
+   },
+   "render_controllers": [
+    "controller.render.armor.altarsmp.netherite_chestplate_c1"
+   ],
+   "scripts": {
+    "parent": "setup_armor",
+    "pre_animation": [
+     "variable.chestplate_layer_visible = 1.0;",
+     "variable.chestplate_layer_visible = query.any_armor_equipped('minecraft:chest_slot') ? 0.0 : 1.0;"
+    ]
+   }
+  }
+ }
+}

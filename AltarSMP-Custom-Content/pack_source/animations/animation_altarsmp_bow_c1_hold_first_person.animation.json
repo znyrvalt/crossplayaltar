@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_bow_c1.hold_first_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -7.25,
+      4.25,
+      6.25
+     ],
+     "rotation": [
+      -178.34,
+      66.89,
+      -146.55
+     ],
+     "scale": [
+      0.9961,
+      0.95313,
+      0.77148
+     ]
+    }
+   }
+  }
+ }
+}

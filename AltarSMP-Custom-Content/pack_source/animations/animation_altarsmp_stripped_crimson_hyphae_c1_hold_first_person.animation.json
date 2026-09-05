@@ -1,0 +1,27 @@
+{
+ "format_version": "1.8.0",
+ "animations": {
+  "animation.altarsmp_stripped_crimson_hyphae_c1.hold_first_person": {
+   "loop": true,
+   "bones": {
+    "bone": {
+     "position": [
+      -0.0,
+      10.5,
+      1.5
+     ],
+     "rotation": [
+      -38.75,
+      180.0,
+      -180.0
+     ],
+     "scale": [
+      0.76367,
+      0.73438,
+      0.5
+     ]
+    }
+   }
+  }
+ }
+}
